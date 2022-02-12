@@ -1,11 +1,9 @@
 # Installation guide for Samsung Galaxy S9 (Exynos)
 
-# If you are coming from NobleROM, so a stock vendor is a must!
-
-# Flashing Instructions:
+# Flashing Instructions(1.4 must be a clean flash):
     1. Reboot to recovery.
-    2. Wipe System, Dalvik/Cache, Cache, Data, also Vendor (If you are coming from NobleROM).
-    3. Flash Stock Vendor(If you have wiped), System, Magisk(Optional).
+    2. Wipe System, Dalvik/Cache, Cache, Data, Vendor.
+    3. Flash ROM.zip, Magisk (Optional)
     4. Reboot to System and Enjoy!
 
-# NOTES: Dirty flashing from my unofficial 1.1 will cause a bootloop, so please do a clean flash.
+# NOTES: Dirty flashing from 1.3 will cause a bootloop, so please do a clean flash.
