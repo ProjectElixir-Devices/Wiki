@@ -2,17 +2,13 @@
 
 ### CLEAN FLASH (RECOMMENDED) : 
 1. Boot to Twrp
-2. Flash rom 
-3. Flash twrp as recovery ramdisk
-4. reboot to Twrp
-5. Format data 
-6. Reboot to system
+2. Format Data
+3. Flash Fw
+4. Flash rom 
+8. Reboot 
 
 ### DIRTY FLASH IF AN UPDATE
 1. Clear Dalvik and Cache in advance wipe
-2. Flash ROM  (and Magisk if needed)
-3. Flash twrp as recovery ramdisk
+2. Flash ROM 
 3. Reboot
 
-## Note: 
-• IF comming from HOS or proton flash memeui Fastboot stable rom then flash Elixir 
