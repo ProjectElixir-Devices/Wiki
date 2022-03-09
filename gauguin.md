@@ -2,22 +2,26 @@
 
 # Installation Guide For Project Elixir on gauguin
 
-## IF YOU ARE MOVING FROM ANDROID 10 or ANDROID 11 TO ANDROID 12 then CLEAN FLASH ( Format Data ) Is COMPULSORY.
+## IF YOU ARE MOVING FROM ANDROID 11 TO ANDROID 12 then CLEAN FLASH ( Format Data ) Is COMPULSORY.
 
-## Recovery Link : [Orangefox Recovery](https://orangefox.download/device/gauguin)
+## Recovery Link : [Recovery](https://sourceforge.net/projects/yasinjb/files/Files/Gauguin/recovery.img/download)
 
-### Encryption to Encryption : 
-1. First format data (by typing yes)
-2. Flash ROM (and magisk if needed)
-3. Reboot
+## CLEAN FLASH:
+1. Download the latest build
+2. Flash the latest build
+3. Format data by going inside factory reset tab
+4. Reboot to system
 
-### Decryption to Decryption: 
-1. Go advanced wipe :- wipe [data, dalvik, cache]
-2. First format data (by typing yes)
-3. Flash ROM
-4. Reboot
+## CLEAN FLASH(if you're using orange fox recovery)
+1. Download the latest build, firmware and recovery
+2. Flash firmware from orange fox recovery
+3. Flash recovery.img
+4. Reboot to recovery
+5. Flash the latest build
+6. Format data by going inside factory reset tab
+7. Reboot to system
 
-### DIRTY FLASH WHEN U R DECRYPTED 
-1. Clear Dalvik and Cache in advance wipe
-2. Flash ROM
-3. Reboot
+## DIRTY FLASH:
+1. Download the latest build
+2. Flash the latest build
+3. Reboot to system
