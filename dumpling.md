@@ -1,0 +1,20 @@
+![Installation Guide For Project Elixir on OnePlus5T](https://i.imgur.com/Hb3gl9Q.jpg "Installation")
+
+# Installation Guide For Project Elixir on OnePlus5T
+
+
+Now let's continue , here are the steps.
+
+## A. with OFOX (not TWRP for storage decryption problem)
+
+1. boot to OrangeFox ( command is fastboot boot recovery.img)( or via fastboot mode )
+
+2. Decrypt storage by entering the current screen lock (if asks. Should be ask if you add screen lock).
+
+3. Now for direct flash is assuming u have rom files in otg pendrive , first choose in OFox menu wipe > Advanced > Select Dalvik,Cache,Vendor,System,Data , and swipe to wipe , Then exit the menu and enter flash section from home and select your rom zip and flash , which is why recommended having rom files in a otg pendrive.
+
+4. now after formatting data , (Again go to wipe section and then select format data , now type yes and hit enter.
+
+5. now reboot to system ( magisk.zip and kernel can be flashed after boot to rom ) and enjoy your rom.
+
+6. If you face any problem with volte and network issue, then flash stock rom and then wipe all except vendor and then flash elixir.
