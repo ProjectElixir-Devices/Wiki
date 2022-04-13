@@ -1,6 +1,6 @@
 ![Installation Guide For Project Elixir on Redmi Note 8](https://i.imgur.com/Hb3gl9Q.jpg "Installation")
 
-# Installation Guide For Project Elixir on Tulip
+# Installation Guide For Project Elixir on Ginkgo
 
 ## IF YOU ARE MOVING FROM ANDROID 10 or ANDROID 11 TO ANDROID 12 then CLEAN FLASH ( Format Data ) Is COMPULSORY.
 
