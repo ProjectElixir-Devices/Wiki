@@ -16,5 +16,3 @@ Now let's continue , here are the steps.
 4. now after formatting data , (Again go to wipe section and then select format data , now type yes and hit enter.
 
 5. now reboot to system ( magisk.zip and kernel can be flashed after boot to rom ) and enjoy your rom.
-
-6. If you face any problem with volte and network issue, then flash stock rom and then wipe all except vendor and then flash elixir.
