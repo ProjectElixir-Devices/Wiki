@@ -37,5 +37,5 @@
 
 ## Notes: 
 - Recommended firmware: 12.X.X (any)
-- [OFRP](https://orangefox.download/device/vayu) recommended or [TWRP](https://t.me/PocoX3ProUpdates/288)
+- [OFRP](https://orangefox.download/device/vayu) (recommended) or [TWRP](https://t.me/PocoX3ProUpdates/288)
 - Clean flash if you face any bugs
