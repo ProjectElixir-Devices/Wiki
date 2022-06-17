@@ -1,21 +1,26 @@
 ![Installation Guide For Project Elixir on juice](https://i.imgur.com/Hb3gl9Q.jpg "Installation")
 
-# Installation Guide For Project Elixir on juice
+# Installation Guide For Project Elixir on juice for v1.8 and above.
 
-## Recovery Link : [OFOX Recovery](https://t.me/PocoM3GlobalUpdates/460)
+## Recovery Link : [OFOX Recovery](https://t.me/fgrkprjkt/527)
+## dynDFE-v2 : [HERE](https://t.me/ppui_chime/515)
 
 
 ### CLEAN FLASH: 
-1. Go adv. wipe :- wipe [data, dalvik, caches]
-2. First format data (by typing yes) [Optional for decrypted devices, but needed if your device still encrypted]
-3. Flash 12.5 MIUI Vendor (Citrus use EEA, lime use 12.5) [MIUI Vendor](https://t.me/imannigproject/98)
+1. Wipe data, cache, dalvik
+2. Format data (if you come from encrypted/want clean storage)
+3. Flash MIUI 12.5.x (if you come from MIUI Android 10 based)
 4. Flash ROM
-5. Flash Disable-DM-VERIFY [DM-Verify](https://t.me/imannigproject/99)
-6. Reboot
+5. Reboot recovery (recommended)
+6. Flash dynDFE-v2 (if you want decrypt)
+7. Flash GApps (if you flash vanilla rom)
+8. Flash Magisk (if you want root access)
+9. Wipe cache and dalvik
+10. Reboot system
 
 ### DIRTY FLASH
 1. Clear Dalvik and Cache in advance wipe
 2. Flash ROM
-3. Flash Disable-DM-Verify [DM-Verify](https://t.me/imannigproject/99)
+3. Flash dynDFE-v2 (if you want decrypt)
 3. Reboot
 
