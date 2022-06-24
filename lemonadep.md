@@ -1,6 +1,6 @@
 # Installation for OnePlus 9 Pro (lemonadep)
 
-1. Download recovery by tapping on the "recovery" : https://drive.google.com/drive/folders/1-zX-6CD2V4ipp8b3ZNEH3tt9b1mGni0d
+1. Download the .ZIP folder that contains dtbo, vendor_boot, and boot:https://android.redbirdvirtual.com/Lemonadep%20%28OnePlus%209%20Pro%29/Image%20Files/
 2. Reboot to bootloader and flash dtbo (fastboot flash dtbo dtbo.img)
 3. Flash vendor_boot (fastboot flash vendor_boot)
 4. Flash boot (fastboot flash boot.img)
