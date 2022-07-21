@@ -8,7 +8,7 @@
 1. Wipe Data , System, Cache (all except internal)
 2. Switch slot reboot recovery
 3. Wipe all except internal
-4. Install PixelPlusUI ROM zip
+4. Install ProjectElixir ROM zip
 5. Change to slot
 6. Install TWRP Installer
 7. Reboot
