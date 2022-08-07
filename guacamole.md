@@ -12,6 +12,7 @@
  - Reboot to Recovery
    - choose 'Apply Patch' then 'Apply from Sideload'
    - sideload rom ```adb sideload <ROM_FILE_NAME>```
+   - format data
  - Reboot to system
 
 **--- Dirty Flash ---**
