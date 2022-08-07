@@ -5,11 +5,12 @@
 ## IF YOU ARE MOVING FROM ANOTHER ROM, CLEAN FLASH Is COMPULSORY.
 
 **--- Clean Flash ---**
- - Extract ```boot.img``` from device or stock Android 11 firmware
-   - use https://github.com/ssut/payload-dumper-go to extract from stock firmware
+ - Extract ```boot.img``` from downloaded rom
+   - use https://github.com/ssut/payload-dumper-go to extract
  - Reboot to fastboot
    - flash boot.img  ```fastboot flash boot boot.img```
  - Reboot to Recovery
+   - choose 'Apply Patch' then 'Apply from Sideload'
    - sideload rom ```adb sideload <ROM_FILE_NAME>```
  - Reboot to system
 
