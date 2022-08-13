@@ -5,23 +5,26 @@
 ## IF YOU ARE MOVING FROM ANOTHER ROM, CLEAN FLASH Is COMPULSORY.
 
 **--- Clean Flash ---**
-Copy the Custom ROM & the Required Firmware to your internal storage
-• Also remove any lockscreen password or pin
 
-Reboot to fastboot and Flash this recovery | fastboot flash boot boot.img
+Reboot to fastboot and boot this twrp | fastboot boot boot.img
+• [Recovery](https://www.androidfilehost.com/?fid=15664248565197186422)
 
-Reboot to Recovery
-• Format Data
+Format Data
+• This is necessory (Make sure you have backup all your stuff)
 
 Reboot to Recovery again
-• Adb Sideload Rom | adb sideload .....OFFICIAL.zip
+• Copy the Custom ROM to your internal / USB storage
 
-• Flash the Required firmware linked in the update post if you're coming from another Custom ROM
-Now just Reboot to system
+Flash the ROM
+• Make sure to Select the option to **--- Automatically Install TWRP after Installation ---**
 
 **--- Dirty Flash ---**
+
+**--- OTA Support Available  ---**
+
+else
 - Download the latest build
 - Reboot to recovery
-- Flash the latest build | adb sideload ......OFFICIAL.zip
+- Flash the latest build | Make sure to Select the option to **--- Automatically Install TWRP after Installation ---**
 - Wipe Cache
 - Reboot :p
