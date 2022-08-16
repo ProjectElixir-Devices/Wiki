@@ -4,7 +4,10 @@
 
 ### IF YOU ARE MOVING FROM ANOTHER ROM, CLEAN FLASH Is COMPULSORY.
 
-- Use Pe or crdroid recovery
+- Extract boot.img through payload dumper
+- Boot device into fastboot mode
+- fastboot flash boot <boot.img>
+- fastboot reboot recovery 
 - Format data
 - Flash latest global, India or cn based firmware
 - Reboot to Recovery
