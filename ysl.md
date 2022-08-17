@@ -1,43 +1,22 @@
-![Installation Guide For Elixir on ysl]
-# Flashing Custom Recovery using PC 
-Guide to flash recovery on Redmi Y2
-Requirements:
-• A computer
-• Unlocked bootloader
-• Ability to use brain
+![Installation Guide For Project Elixir on Violet](https://i.imgur.com/5PIB1RV.jpg "Installation")
 
-Steps:
-1. Download the following files-
-• [Platform Tools](https://developer.android.com/studio/releases/platform-tools)
-2. Copy custom recovery and  to platform tools.
-3. Boot your phone into fastboot mode and connect it to your computer.
-4. Open command prompt in platform tools directory and type the following commands-
+# Installation Guide For Project Elixir on YSL
 
-fastboot flash recovery recoveryname.img
+## IF YOU ARE MOVING FROM ANOTHER ROM, CLEAN FLASH IS COMPULSORY.
 
-fastboot reboot recovery
+## Clean Flash:
+* Download the latest build
+* Reboot to recovery.
+* Take a backup.
+* Format Data
+* Flash the latest build
+* Flash Fcrypt [If you want to decrypt else u can skip]
+* Reboot 
 
-Done, happy flashing :)
+## Dirty Flash:
+* Download the latest build
+* Reboot to recovery
+* Flash the latest build
+* Wipe Cache
+* Reboot 
 
-## Installation Guide For Elixir on ysl
-
-### MIUI to Elixir
-1. After flashing custom recovery, boot to recovery.
-2. Go adv. wipe :- wipe [dalvik, cache, system, vendor ,data]
-3. Format data (By typing yes)
-4. Reboot to recovery.
-5. Flash rom.
-6. Reboot system.
-
-### A different Rom to Elixir
-1. Reboot to recovery.
-2. Go adv. wipe :- wipe [dalvik, cache,system,vendor,data ]
-3. Reboot to recovery.
-4. Flash rom.                          
-5. Reboot system.
-                   
-### Elixir(OLD VERSION) to Elixir(NEW VERSION)
-1. Reboot to recovery.
-2. Go adv. wipe :- wipe [dalvik, cache, ]
-3. Flash new version of Elixir.
-4. Reboot system.
