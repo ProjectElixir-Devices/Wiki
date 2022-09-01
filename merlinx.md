@@ -14,4 +14,5 @@
 ### Note:
 - This is steps is if you're comming from R Vendor, if you're on S Vendor just flash the rom and format data
 - Clean flash is mandatory 
+- Make IMEI Backup, don't need if you already have one
 - Follow strictly all steps and you won't get any brick.
