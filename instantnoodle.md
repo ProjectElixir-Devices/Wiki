@@ -1,4 +1,4 @@
-# Installation for OnePlus 8 Pro (instantnoodle)
+# Installation for OnePlus 8 (instantnoodle)
 
 * FOR CLEAN FLASH 
 1. Be on the latest OOS 11 on both slots.
