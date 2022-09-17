@@ -8,12 +8,13 @@
 1). [boot](https://sourceforge.net/projects/ashish-builds/files/Recovery-A13//boot.img/download)
 2). [vendor_boot](https://sourceforge.net/projects/ashish-builds/files/Recovery-A13/vendor_boot.img/download)
 
-Flashing Recovery through ADB:
+## Flashing Recovery through ADB:
 1. fastboot flash boot boot.img
 2. fastboot flash vendor_boot  vendor_boot.img
 4. fastboot reboot recovery
 
-Flashing ROM:
+## Flashing ROM:
+### Via SD Card
 * Select Apply Update
 * Apply Update from SD Card or OTG
 * Select rom and flash it
@@ -24,7 +25,7 @@ Flashing ROM:
 * Enjoy
 
 Or
-
+### Via ADB Sideload
 * Select Apply Update
 * Apply Update from ADB
 * Connect your phone to PC
