@@ -4,7 +4,7 @@
 
 ## IF YOU ARE MOVING FROM ANDROID 11 or ANDROID 12 TO ANDROID 13 then install stable MIUI firmware and CLEAN FLASH ( Format Data ) Is COMPULSORY.
 
-## Recovery Link : [OFOX Recovery](https://orangefox.download/device/miatoll)
+## Recovery Link : [OFOX Recovery](https://orangefox.download/release/6327989a3c05f43c193c0acb)
 
 ### installation instruction : 
 1. use orangefox fbev1 recovery
