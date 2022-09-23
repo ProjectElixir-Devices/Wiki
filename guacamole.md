@@ -1,4 +1,4 @@
-![Installation Guide For Project Elixir on Violet](https://i.imgur.com/5PIB1RV.jpg "Installation")
+![Installation Guide For Project Elixir](https://i.imgur.com/3UmK6nS.png "Installation")
 
 # Installation Guide For Project Elixir on guacamole
 
