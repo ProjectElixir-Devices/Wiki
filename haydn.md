@@ -10,5 +10,5 @@
 
 ### Note:
 - Firmware is inbuilt.
-- Clean flash is compalsary.
-- Use provided boot.img only do not use twrp or ofox else u may have problem flashing.
+- Clean flash is compulsory if coming from a12. Can dirty flash if coming from a13 initial build.
+- Use Twrp or orange fox recovery.
