@@ -8,7 +8,7 @@
 - Reboot to shrp or twrp (whatever)
 - Flash Fw 13.0.1 A12 in your recovery
 - After reboot system and hold volume - (IMPORTANT) you'll enter on fastboot
-- Flash S Vendor [recovery](https://drive.google.com/file/d/1zFQ50oMylc_yJlcpyS3vwn-knZWBTz3t/view?usp=drivesdk)
+- [Flash S vendor recovery](https://t.me/HelioG85_Updates/679)
 - Reboot recovery
 - Flash Rom
 - Format data (Factory Reset > Format data)
