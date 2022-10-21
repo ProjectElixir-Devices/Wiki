@@ -2,6 +2,19 @@
 
 ### Installation Guide For Project Elixir on Violet
 
+### Clean Flash
+```
+- Download the latest build
+- Take a backup for safe side
+- Boot to Recovery (update to a13 recovery)
+- Format Data by typing yes
+- Flash the latest build (dont flash fcrypt v3)
+- Flash DFE v4.zip for decryption (optional)
+- Reboot
+```
+
+- DFE v4.zip : [Tap Here for link](https://drive.google.com/file/d/1fxx11QOCxXJGvMDGC5lRnom-M0nf8Dhd/view?usp=sharing)
+
 ### Encryption to Encryption :
 ```
 1. Update recovery to latest TWRP/OFOX for A13 
