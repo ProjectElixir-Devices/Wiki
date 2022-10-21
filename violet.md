@@ -1,4 +1,4 @@
-![Installation Guide For Project Elixir](https://i.imgur.com/l9GgWou.jpg) 
+![Installation Guide For Project Elixir](https://i.imgur.com/3UmK6nS.png)
 
 ### Installation Guide For Project Elixir on Violet
 
