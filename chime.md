@@ -1,4 +1,4 @@
-![Installation Guide For Project Elixir on chime](https://i.imgur.com/Hb3gl9Q.jpg "Installation")
+![Installation Guide For Project Elixir on chime](https://i.imgur.com/3UmK6nS.png "Installation")
 
 # Installation Guide For Project Elixir on chime.
 
