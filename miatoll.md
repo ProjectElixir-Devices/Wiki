@@ -2,7 +2,7 @@
 
 ### Installation Guide For Project Elixir on Miatoll
 
-## IF YOU ARE MOVING FROM ANDROID 11 or ANDROID 12 TO ANDROID 13 then install stable MIUI firmware and CLEAN FLASH ( Format Data ) Is COMPULSORY.
+## IF YOU ARE MOVING FROM ANDROID 11 or ANDROID 12 TO ANDROID 13 then install stable MIUI Android 11 firmware and CLEAN FLASH ( Format Data ) Is COMPULSORY.
 
 ## Recovery Link : [OFOX Recovery](https://orangefox.download/release/6327989a3c05f43c193c0acb)
 
