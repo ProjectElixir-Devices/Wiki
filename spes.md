@@ -4,6 +4,23 @@
 
 Flash Rom On Redmi Note 11 Spes & Spesn
 
+==========================
+ELIXIR SPECIFIC
+==========================
+
+Installation Instructions:
+• Boot into TWRP 3.7.0
+• Format data
+• Cleared data and dalvik cache
+• Install ROM from SD Card
+• Then reboot to elixir recovery
+• Again formatted data
+• Then reboot to system
+
+==========================
+UNIVERSAL METHODS
+==========================
+
 CLEAN FLASH (Without Sdcard) :
 - Take Rom In Internal Storage.
 - Take Recovery (Twrp, Ofox, Shrp, pbrb) in Internal storage.
