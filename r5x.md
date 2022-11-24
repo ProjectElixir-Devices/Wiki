@@ -2,16 +2,13 @@
 
 ### Installation Guide For Project-Elixir on Realme 5 Series (5x)
 
-Note:- (Rom is decrypted so no need DFE)
+Note:- (Rom is Encrypted Format Data Mandatory)
 
 ### Clean Flash- 
-- Wipe system, vendor, data, cache, dalvik
-(Format Data if Coming From Another Rom)
+- Wipe system, vendor, data, cache, dalvik cache
+- Flash Firmware C79 (Optional)
 - Flash rom
+- Format Data
 - Reboot
 
-### Dirty Flash- 
-- Wipe system, vendor, cache, dalvik
-- Flash Rom 
-- Wipe cache and dalvik cache
-- Reboot
+### Happy Flashing 🤟
