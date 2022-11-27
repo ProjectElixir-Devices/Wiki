@@ -6,7 +6,7 @@
 
 - Download the latest build
 - Reboot to shrp or twrp (whatever)
-- Flash Fw 13.0.1 A12 in your recovery
+- Flash Fw 13.0.2 A12 Global  in your recovery
 - After reboot system and hold volume - (IMPORTANT) you'll enter on fastboot
 - [Flash S vendor recovery](https://t.me/HelioG85_Updates/679)
 - Reboot recovery
