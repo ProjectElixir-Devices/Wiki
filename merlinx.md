@@ -4,24 +4,13 @@
 
 ## Clean flash
 
-- Download the latest build
-- Reboot to shrp or twrp (whatever)
-- Flash Fw 13.0.2 A12 Global  in your recovery
-- After reboot system and hold volume - (IMPORTANT) you'll enter on fastboot
-- [Flash S vendor recovery](https://t.me/HelioG85_Updates/679)
-- Reboot recovery
+- Rollback to MIUI 12.5.4 via fastboot
+- Flash [CRDROID RECOVERY](https://t.me/kaikuwu/36?single)
 - Flash Rom
-- Format data (Factory Reset > Format data)
-- Reboot
+- Format data
+- Reboot systen
 
-## Dirty flash
-
-- Flash rom
-- Wipe Cache
-- Reboot system
-
-### Note:
-- This is steps is if you're comming from R Vendor, if you're on S Vendor just flash the rom and format data
-- Clean flash is mandatory 
+## Notes
+- Clean flash is mandatory due to R VENDOR ROM 
 - Make IMEI Backup, don't need if you already have one
 - Follow strictly all steps and you won't get any brick.
