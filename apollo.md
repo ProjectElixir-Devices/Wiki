@@ -32,3 +32,5 @@ Now just Reboot to system
 - Flash the copied Custom ROM
 - Flash the Required firmware linked in the update post
 ```
+
+### Firmware : Use latest fw 13.0.11.0
