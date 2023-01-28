@@ -7,7 +7,7 @@
 2. Make sure your computer has adb and fastboot.
 3. Enable USB debugging on your device.
 4. Boot your device with the stock OS at least once and check every functionality. Make sure that you can send and receive SMS and place and receive calls (also via WiFi and LTE, if available), otherwise it won’t work on Project Elixir either!
-5. Project Elixir is provided as-is with no warranty. While we attempt to verify e[verything works](https://projectelixiros.com/documentation) you are installing this at your own risk!
+5. Project Elixir is provided as-is with no warranty. While we attempt to verify [everything works](https://projectelixiros.com/documentation) you are installing this at your own risk!
 
 ### Unlocking the bootloader
 1. Enable OEM unlock in the Developer options under device Settings, if present.
@@ -16,14 +16,15 @@
 ```bash
 adb reboot bootloader
 ```
-    You can also boot into fastboot mode via a key combination with the device powered off, hold Volume Down + Power.
+You can also boot into fastboot mode via a key combination with the device powered off, hold Volume Down + Power.
+
 4. Once the device is in fastboot mode, verify your PC finds it by typing:
 ```bash
 fastboot devices
 ```
-    If you don’t get any output or an error:
-        1. on Windows: make sure the device appears in the device manager without a triangle. Try other drivers until the command above works!
-        2. on Linux or macOS: If you see no permissions fastboot try running fastboot as root. When the output is empty, check your USB cable and port!
+If you don’t get any output or an error:
+   1. on Windows: make sure the device appears in the device manager without a triangle. Try other drivers until the command above works!
+   2. on Linux or macOS: If you see no permissions fastboot try running fastboot as root. When the output is empty, check your USB cable and port!
 
 5. Now type the following command to unlock the bootloader:
 ```bash
@@ -40,15 +41,15 @@ Simply download the latest recovery file.
 ```bash
 adb reboot bootloader
 ```
-    You can also boot into fastboot mode via a key combination Wwith the device powered off, hold Volume Down + Power.
+You can also boot into fastboot mode via a key combination Wwith the device powered off, hold Volume Down + Power.
 
 4. Once the device is in fastboot mode, verify your PC finds it by typing: 
 ```bash
 fastboot devices
 ```
-    If you don’t get any output or an error:
-        1. on Windows: make sure the device appears in the device manager without a triangle. Try other drivers until the command above works!
-        2. on Linux or macOS: If you see no permissions fastboot try running fastboot as root. When the output is empty, check your USB cable (preferably use a USB Type-A 2.0 one or a USB hub) and port!
+If you don’t get any output or an error:
+   1. on Windows: make sure the device appears in the device manager without a triangle. Try other drivers until the command above works!
+   2. on Linux or macOS: If you see no permissions fastboot try running fastboot as root. When the output is empty, check your USB cable (preferably use a USB Type-A 2.0 one or a USB hub) and port!
 
 5. Flash the TRWP Recovery on your device by typing
 ```bash
@@ -56,7 +57,6 @@ fastboot flash boot <recovery_filename>.img
 ```
 (replace <recovery_filename> with the actual filename!)
 6. Now reboot into recovery to verify the installation.
-    Use the menu to navigate to and to select the Recovery option.
 
 ### Pre-install instructions
 Starting with Android 12, you must re-partition the device for Project Elixir to be installed.
@@ -67,7 +67,7 @@ Starting with Android 12, you must re-partition the device for Project Elixir to
     2. On the computer, type adb sideload and drag to terminal the Product Partition 3GB file then enter
 3. Return to the main menu.
 4. Now tap Wipe, then Format data / factory reset and continue with the formatting process. Next reboot to recovery again
-5. Then sideload the rom like sideloading the Product Partition 3GB on poin nuber 2
+5. Then sideload the rom like sideloading the Product Partition 3GB on poin number 2
 
 Note: If you want to revert to the stock partition table, kindly download and flash the this [Stock Partiton - Pixel 2 XL](https://gitlab.pixelexperience.org/android/vendor-blobs/wiki_blobs_wahoo/-/raw/main/deproduction-pixel2xl.zip)
 
