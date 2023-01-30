@@ -3,7 +3,7 @@
 # Installation Guide For ProjectElixir on Xiaomi Mi Note 10 Lite (toco)
 
 ## Note: 
-• Ensure that you are on MIUI V13.0.2.0 Firmware
+• Ensure that you are on MIUI V13.0.4.0 Firmware
 • Ensure that you use TWRP or OrangeFox for Android 13 ONLY
 
 ### CLEAN FLASH (RECOMMENDED)
