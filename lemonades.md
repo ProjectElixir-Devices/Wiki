@@ -7,24 +7,16 @@
 
 
 ### Firmware Instructions:
-Method 1: If from OOS11(11.2.8.8)
+Method 1: If from OOS11 or OOS12
 1. Unlock bootloader
-2. Download latest [oos12 c.36](https://t.me/OnePlusOTA/839)
-3. Go to updater and click on three dots where you can local update to c.36 directly
+2. Download latest OOS13 fw from [here](https://mega.nz/folder/W7JhwTAT#Yu6cxqvJcAC28cy0m_kkQA)
+3. It will flash fw after detecting the ddr type so don't worry about bricking the device
+4. Flash the fw using this [recovery](https://github.com/Wishmasterflo/device_oneplus_opkona/releases/download/R12.1_V13/OrangeFox-R12.1-Unofficial-OPKONA-V13.img)
 4. Follow from Method 2
 
-Method 2: If from OOS12(C.36)
-1. Download this [recovery](https://github.com/Wishmasterflo/device_oneplus_opkona/releases/download/R12.1_V13/OrangeFox-R12.1-Unofficial-OPKONA-V13.img)
-2. Flash it via bootloader (command: fastboot flash recovery <recoveryname.img>)
-3. Download the correct ddr based firmware for your device from [here](https://www.mediafire.com/folder/sxdpvifk83q9g/OnePlus_Firmware_Updates#tg0qfco663wo6)
-4. Flash or sideload the firmware 
-5. Reboot to bootloader
-6. Download and flash this [recovery](https://github.com/Wishmasterflo/device_oneplus_opkona/releases/download/R12.1_V13/OrangeFox-R12.1-Unofficial-OPKONA-OOS13-V13.img)
-7. Follow from clean flash instructions given below
-
-Method 3: If from OOS13(F.16)
+Method 2: If from OOS13
 1. Unlock bootloader
-2. Download and flash this [recovery](https://github.com/Wishmasterflo/device_oneplus_opkona/releases/download/R12.1_V13/OrangeFox-R12.1-Unofficial-OPKONA-OOS13-V13.img)
+2. Download the rom and flash via this [recovery](https://github.com/Wishmasterflo/device_oneplus_opkona/releases/download/R12.1_V13/OrangeFox-R12.1-Unofficial-OPKONA-OOS13-V13.img)
 3. Follow the clean flash instructions given below
 
 ### Clean Flash:
