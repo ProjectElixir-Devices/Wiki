@@ -2,12 +2,14 @@
 
 # Installation Guide For Project Elixir on guacamole
 
-## IF YOU ARE MOVING FROM ANOTHER ROM, CLEAN FLASH Is COMPULSORY.
+# IF YOU ARE MOVING FROM ANOTHER ROM, CLEAN FLASH Is COMPULSORY.
 
 **--- Clean Flash ---**
 
+MAKE SURE TO BE ON OOS 11.0.9.0  NOT OOS12
+
 Reboot to fastboot and boot this twrp | fastboot boot boot.img
-• [Recovery](https://www.androidfilehost.com/?fid=15664248565197186422)
+• [Recovery](https://sourceforge.net/projects/evolutionx-guacamole/files/twrp/TWRP_3.7.0_12_By_Master.img/download)
 
 Format Data
 • This is necessory (Make sure you have backup all your stuff)
