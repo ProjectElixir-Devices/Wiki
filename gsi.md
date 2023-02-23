@@ -4,6 +4,7 @@
 
 PREREQUISITES:
 * Check Project treble compatibility using [Treble Info](https://play.google.com/store/apps/details?id=tk.hack5.treblecheck)
+- Must have A/B partitioning or System-As-Root support
 - Must fit into ARM64 architecture requirement. (Future builds may include A64 support)
 - Must have at least VNDK28 support.
 
