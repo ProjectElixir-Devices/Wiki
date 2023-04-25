@@ -40,11 +40,11 @@ adb sideload [ROM.zip location]
 
 ### Elixir Boot & Vendor Boot Image Download 
 
-https://mega.nz/folder/kxFkRYgA#RW5bJ2z26bBKfKKJ1TdCdg
+https://mega.nz/folder/z3BlWYzA#VkrcjpQJM5Q0KweHaFi8Yg
 
 
 ### NOTE:-
-• Firmware is built-in
+• Firmware is built-in ( indian users to flash indian fw )
 
 • GAPPS are built-in
 
