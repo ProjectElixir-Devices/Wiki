@@ -2,7 +2,7 @@
 
 ### Installation Guide For Project Elixir on Kebab
 ### From version 3.4
-### Based on OOS13 firmware 
+### Based on Latest OOS13 firmware 
 ### Will only work for Oneplus 8T(9R builds are given seperately)
 
 
