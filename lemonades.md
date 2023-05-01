@@ -2,7 +2,7 @@
 
 ### Installation Guide For Project Elixir on Lemonades
 ### From version 3.4
-### Based on OOS13 firmware (F.16)
+### Based on OOS13 firmware (F.22)
 ### Will only work for Oneplus 9r(8T builds are given seperately)
 
 
