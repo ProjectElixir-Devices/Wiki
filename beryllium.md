@@ -6,7 +6,7 @@
 - Wipe system, vendor, data, system_ext, cache, dalvik
 - Format data ( if Encrypted )
 - Flash rom
-- Flash Disable Force Encryption Zip ( If Decrypted )
+- Mount Vendor And Flash Disable Force Encryption Zip ( If Decrypted )
 - Wipe cache and dalvik cache
 - Reboot & Enjoy.
 
