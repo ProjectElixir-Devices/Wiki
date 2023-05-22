@@ -6,13 +6,13 @@
 - Wipe system, vendor, data, system_ext, cache, dalvik
 - Format data ( if Encrypted )
 - Flash rom
-- Mount Vendor And Flash Disable Force Encryption Zip ( If Decrypted )
+- Mount Vendor And Flash [Disable Force Encryption Zip](https://telegram.me/ppui_beryllium/33686) ( If Decrypted )
 - Wipe cache and dalvik cache
 - Reboot & Enjoy.
 
 ### Dirty Flash - 
 - Wipe system, system_ext, vendor, cache, dalvik
 - Flash Rom 
-- Mount Vendor And Flash Disable Force Encryption Zip ( If Decrypted )
+- Mount Vendor And Flash [Disable Force Encryption Zip](https://telegram.me/ppui_beryllium/33686) ( If Decrypted )
 - Wipe cache and dalvik cache
 - Reboot & Enjoy.
