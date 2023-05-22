@@ -13,6 +13,6 @@
 ### Dirty Flash - 
 - Wipe system, system_ext, vendor, cache, dalvik
 - Flash Rom 
-- Flash Disable Force Encryption Zip ( If Decrypted )
+- Mount Vendor And Flash Disable Force Encryption Zip ( If Decrypted )
 - Wipe cache and dalvik cache
 - Reboot & Enjoy.
