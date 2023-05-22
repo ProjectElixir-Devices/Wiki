@@ -12,5 +12,14 @@
 6. FORMAT DATA . (Requires full backup of internal storage) ignore any error
 7. Reboot to System
 
+## Dirty Flash Install / OTA from this ROM
+1. Download ROM by OTA or Website then save to your internal phone
+2. Flash temporary TWRP in slot a and b then boot to recovery
+3. Go to Install and search your rom where your save
+4. Flash the ROM
+5. Reboot to System
+
 ### Note: 
 - If you are coming from A12 to A13 clean flash is compulsory
+- you can get TWRP on [here](https://dl.twrp.me/crosshatch/twrp-3.7.0_12-0-crosshatch.img.html)
+- if any problems, contact me [here](https://t.me/jrjmt)
