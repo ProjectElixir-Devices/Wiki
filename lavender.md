@@ -2,11 +2,11 @@
 
 ### Installation Guide For Project Elixir on Lavender
 
-### 3.4 lavender
+### 3.8 lavender
 
 ### Dirty Flash
-1. update to latest ofox beta stable.
-2. wipe dalvik, cache, system, vendor, data.
+1. update to latest ofox stable.
+2. wipe dalvik, cache, system, vendor.
 3. flash ROM.
 4. flash Magisk (optional).
 
