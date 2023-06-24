@@ -5,7 +5,7 @@
 ## First Time Install / Clean Flash from Another ROM
 
 1. Reboot to Fastboot
-2. Flash boot.img
+2. Flash boot.img (if you dont have a boot.img, extract with FastbootEnhance) on [here](https://github.com/libxzr/FastbootEnhance/releases)
 3. Go to Recovery Mode
 4. Go to "Apply Update - Adb Sideload"
 5. Flash the ROM
@@ -15,9 +15,9 @@
 ## Dirty Flash Install / OTA from this ROM
 1. Download ROM by OTA or Website then save to your internal phone
 2. Flash temporary TWRP in slot a and b then boot to recovery
-2. Go to Install and search your rom where your save
-3. Flash the ROM
-4. Reboot to System
+3. Go to Install and search your rom where your save
+4. Flash the ROM
+5. Reboot to System
 
 ### Note: 
 - If you are coming from A12 to A13 clean flash is compulsory
