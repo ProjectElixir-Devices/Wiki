@@ -3,9 +3,8 @@
 ## Installation Guide For Project Elixir on Crosshatch
 
 ## First Time Install / Clean Flash from Another ROM
-
 1. Reboot to Fastboot
-2. Flash boot.img
+2. Flash boot.img (if you dont have a boot.img, extract with FastbootEnhance) on [here](https://github.com/libxzr/FastbootEnhance/releases)
 3. Go to Recovery Mode
 4. Go to "Apply Update - Adb Sideload"
 5. Flash the ROM
