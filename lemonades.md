@@ -9,7 +9,7 @@
 ### Firmware Instructions:
 Method 1: If from OOS11 or OOS12
 1. Unlock bootloader
-2. Download latest OOS13 fw from [here](https://mega.nz/folder/W7JhwTAT#Yu6cxqvJcAC28cy0m_kkQA)
+2. Download F.22 OOS13 fw from [here](https://mega.nz/folder/W7JhwTAT#Yu6cxqvJcAC28cy0m_kkQA)
 3. It will flash fw after detecting the ddr type so don't worry about bricking the device
 4. Flash the fw using this [recovery](https://github.com/Wishmasterflo/device_oneplus_opkona/releases/download/R12.1_V13/OrangeFox-R12.1-Unofficial-OPKONA-V13.img)
 4. Follow from Method 2
