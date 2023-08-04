@@ -25,19 +25,3 @@
 5. reboot to system.
 6. enjoy.
 ```
-
-#### Temporary ScreenOffFod Fix
-```
-
-Root method :
-1. install termux from play store
-2. give su permission
-3. run this command "su -c settings put secure screen_off_udfps_enabled 1"
-4. to disable it run this command "su -c settings put secure screen_off_udfps_enabled 0"
-
-
-ADB method:
-1. connect your phone to PC/Laptop
-2. run this command "adb shell settings put secure screen_off_udfps_enabled 1"
-3. to disable it run this command "adb shell settings put secure screen_off_udfps_enabled 0"
-```
