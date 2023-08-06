@@ -8,7 +8,7 @@
    - **Platform Tools Link (Windows)**: [platform-tools-latest-windows.zip](https://dl.google.com/android/repository/platform-tools-latest-windows.zip)
 
 2. Download the OrangeFox FBEv1 Recovery from the link below:
-   - **Recovery Link:** [OFOX Recovery](https://orangefox.download/release/6327989a3c05f43c193c0acb)
+   - **Recovery Link:** [OrangeFox Recovery](https://orangefox.download/release/6423f3fd3b7efd4549c74602)
 
 3. Download the stable MIUI firmware from the link below:
    - **Firmware Link**: [MIUI Firmware Updater](https://xiaomifirmwareupdater.com/firmware/)
