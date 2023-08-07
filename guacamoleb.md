@@ -4,26 +4,21 @@
 
 ### Clean Flash
 ```
-- First unlock bootloader on oxygen os 11
-- Boot to Android 11 Twrp
-- Check slot before flashing
-- Flash oxygen os 12.1 in twrp on both slots
-- After that reboot to fastboot
-- Now its time to flash Pixel Exp A12 Recovery so type this command
+- First unlock bootloader on OxygenOS 11
+- Install OOS 12.1 version 11.H.40 or 11.H.41 (depending on the region)
+- After installation, download the .zip file with the above update via Oxygen Updater
 ```
+- Download and run [OP Local Update](https://oxygenos.oneplus.net/OPLocalUpdate_For_Android12.apk) 
+- Run the installation a second time (the second slot will be flashed)
 ```
-fastboot boot recovery.img
-```
-```
-- Now boot to recovery
-- Format Data on both slots
-- Flash Project Elixir zip in recovery.
-- Now reboot 
+- adb reboot bootloader
+- Download Recovery from Pixel Experience Plus 13.0
+- Fastboot flash boot_a boot.img and fastboot flash boot_b boot.img
+- Now boot into recovery
+- Format Data on both slots**
+- Flash Project Elixir zip in recovery via adb sideload
+- Now Reboot.
 ```
 
-### NOTE :
-```
-- Use pendrive for flashing because sometimes storage don't show up in twrp because of a&b slots encryption !!
-- BOOTLOADER ON OXYGEN OS 12.1 CAN'T BE UNLOCKED DUE TO SOME TECHNICAL REASONS
-- Also if Android 11 twrp doesnt work try Android 12 or vice versa if you are using TWRP.
-```
+** If you don't see the slot switch, go back to bootloader and set it active via fastboot set_active a or fastboot set_active b and go back to recovery)
+- [Recovery link of Pixel Experience Plus](https://get.pixelexperience.org/changelog/guacamoleb/PixelExperience_Plus_guacamoleb-13.0-20230714-2238-OFFICIAL.img)
