@@ -1,35 +1,64 @@
 ![Installation Guide For Project Elixir](https://i.imgur.com/3UmK6nS.png "Installation")
 
-# Installation Guide For Project Elixir on Veux/Peux
+# Easy Installation Guide for Project Elixir on Veux/Peux
 
-## IF YOU ARE MOVING FROM ANOTHER ROM, CLEAN FLASH Is COMPULSORY.
+If you're new to installing Project Elixir on your device, don't worry! This step-by-step guide will walk you through the process and ensure a smooth installation.
 
-### Recovery links
-1). [boot](https://sourceforge.net/projects/ashish-builds/files/Recovery-A13//boot.img/download)
-2). [vendor_boot](https://sourceforge.net/projects/ashish-builds/files/Recovery-A13/vendor_boot.img/download)
+## **Before You Begin: Back Up Your Data**
+Before you start the installation process, it's a good idea to back up your important data to prevent any data loss during the installation.
 
-Flashing Recovery through ADB:
-1. fastboot flash boot boot.img
-2. fastboot flash vendor_boot  vendor_boot.img
-4. fastboot reboot recovery
+## **1. Download Necessary Files**
+To get started, you'll need to download the required files for the installation:
 
-Flashing ROM:
-* Select Apply Update
-* Apply Update from SD Card or OTG
-* Select rom and flash it
-* reboot to recovery again
-* Apply Update from SD Card or OTG
-* format data(if you make it dirty flash skip this step)
-* reboot to system
-* Enjoy
+- [boot.img](https://sourceforge.net/projects/ashish-builds/files/Recovery-A13//boot.img/download)
+- [vendor_boot.img](https://sourceforge.net/projects/ashish-builds/files/Recovery-A13/vendor_boot.img/download)
+- [rom.zip](https://www.pling.com/p/1879508/)
 
-Or
+## **2. Flash Recovery**
+Follow these steps to flash the necessary recovery images using ADB:
 
-* Select Apply Update
-* Apply Update from ADB
-* Connect your phone to PC
-* adb sideload rom.zip
-* reboot to recovery again
-* format data
-* reboot to system
-* Enjoy
+1. Connect your device to your computer.
+2. Open a command prompt or terminal on your computer.
+3. Navigate to the directory where you've downloaded the recovery images.
+4. Run the following commands:
+```
+fastboot flash boot boot.img
+```
+```
+fastboot flash vendor_boot vendor_boot.img
+```
+```
+fastboot reboot recovery
+```
+
+## **3. Install Project Elixir ROM**
+Now it's time to install the Project Elixir ROM on your device:
+
+1. In recovery mode, select "Apply Update."
+2. Choose "Apply Update from SD Card or OTG."
+3. Locate and select the `rom.zip` file you downloaded.
+4. Confirm and start the flashing process.
+5. Once the flashing is complete, reboot back into recovery.
+6. Again, select "Apply Update from SD Card or OTG."
+7. If you're doing a clean installation, select "Format Data." (Skip this step if you're doing a dirty flash.)
+8. Reboot your device into the system.
+
+## **4. Alternative Installation Method (ADB Sideloading)**
+Alternatively, you can use ADB sideload method to install the ROM:
+
+1. In recovery mode, select "Apply Update."
+2. Choose "Apply Update from ADB."
+3. Connect your phone to your PC.
+4. Open a command prompt or terminal on your PC.
+5. Run the following command:
+```
+adb sideload rom.zip
+```
+6. Once sideloading is done, reboot back into recovery.
+7. Format Data.
+8. Reboot your device into the system.
+
+## **5. Enjoy Project Elixir**
+Congratulations! You've successfully installed Project Elixir on your Veux/Peux device. Enjoy the new features and customization options that the ROM offers.
+
+Remember, if you encounter any issues during the installation process, feel free to seek help from the Project Elixir community or refer to their official documentation. Happy exploring!
