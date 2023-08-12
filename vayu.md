@@ -22,5 +22,5 @@
 
 ## Notes:
 - Recommended firmware: 12.X.X (any)
-- Recovery: [OFRP](https://orangefox.download/device/vayu) (recommended) or [TWRP](https://eu.dl.twrp.me/vayu/)
+- Recovery: [OrangeFox Recovery](https://orangefox.download/device/vayu) (recommended) or [TWRP](https://eu.dl.twrp.me/vayu/)
 - Consider clean flash if you face bugs while dirty flashing
