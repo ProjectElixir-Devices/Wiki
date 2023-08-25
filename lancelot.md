@@ -6,7 +6,7 @@
 
 - Download the latest build
 - Reboot to your current recovery
-- Flash miui 12.5.6 in your current recovery
+- Flash [MIUI 12.5.6](https://t.me/raizel_roms32/12786) in your current recovery
 - Flash [R Vendor recovery](https://t.me/surprizerbuilds/63?single)
 - Reboot recovery
 - Flash Rom
