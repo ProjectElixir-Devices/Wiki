@@ -2,24 +2,21 @@
 
 ### Installation Guide For OnePlus 6T (fajita)
 
-- Download OOS 11       : https://oxygenos.oneplus.net/OnePlus6TOxygen_34.J.62_OTA_0620_all_2111252336_f6eda340d7af4e3e.zip
-- Download A11 TWRP Img : https://sourceforge.net/projects/oneplus-6-series/files/TWRP/TWRP-3.6.2_11-OP6xT.img/download
-- Download A11 TWRP Zip : https://sourceforge.net/projects/oneplus-6-series/files/TWRP/TWRP-3.6.2_11-OP6xT.zip/download
-- Download Elixir Rom   : https://www.pling.com/p/1866093/
-- Download A12 TWRP Zip : https://sourceforge.net/projects/oneplus-6-series/files/A12%20TWRP/Fajita/TWRP-3.6.2_12-2-fajita.zip/download
+# Clean Flash
+1. Back up anything you want to keep from the phone's internal storage to your computer/cloud storage, because we're going to format the 
+   userdata partition in this process.*
+2. Download rom zip to computer.
+3. Extract boot.img from rom zip.
+4. Reboot phone to bootloader.
+5. Flash boot image to both slots ('fastboot flash boot_a boot.img' then 'fastboot flash boot_b boot.img').
+6. Reboot phone to bootloader.
+7. Use vol +/- keys to select recovery mode & press power button to enter recovery.
+On phone, choose "Apply update" > "ADB sideload" & then from computer, 'adb sideload path/to/rom.zip' (substituting the actual path to the actual filename) to sideload the installation zip; the recovery header graphic will disappear until the process has completed ("error" messages like "no error", or finishing at 47% on the computer are normal).
+8. On phone, choose "Factory reset / Wipe data", and confirm (note: this will erase everything from the phone's internal storage; make 
+   sure that you have backed up anything you want to keep first!). If you want to try out f2fs as a filesystem for userdata, give it a 
+   shot. It should be stable. If you don't know, just pick ext4; that's what we've been using forever.
+9. On phone, choose "Advanced" > "Reboot recovery" to reboot into recovery on the newly-flashed slot.
+10. Reboot into system.
 
-
-
-1.  Boot A11 TWRP Img Using Fastboot
-2.  Install OOS11.zip + A11 TWRP.zip
-3.  Reboot Recovery
-4.  Reinstall OOS11.zip + A11 TWRP.zip
-5.  Reboot Recovery
-6.  Go Wipe > Format Data > Type "Yes"
-7.  Reboot Recovery
-8.  Install Elixir Rom.zip + A12 TWRP.zip
-9.  Reboot Recovery
-10. Reinstall Elixir Rom.zip + A12 TWRP.zip
-11. Reboot Recovery
-12. Go Wipe > Format Data > Type "Yes"
-13. Reboot System
+# OTA Update
+Use the built-in Updater ("Settings > System > Updater") to apply OTA updates as they become available, or to manually flash a ROM zip by going to the three-line menu in the upper right and choosing "Local update"
