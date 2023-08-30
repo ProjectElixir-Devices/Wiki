@@ -2,35 +2,46 @@
 
 ### Installation Guide For Project Elixir on Redmi K30S Ultra/Mi 10T/Pro (apollo)
 
-### IF YOU ARE MOVING FROM ANOTHER ROM, CLEAN FLASH Is COMPULSORY.
 
-### Clean Flash 
+
+
+**Start with unlocked bootloader and grab a PC with windows, linux or macOS**
+
+
+
+**Req:**
 ```
-- Copy the Custom ROM & the Required Firmware to your internal storage
--  Also remove any lockscreen password or pin
-- Reboot to TWRP Recovery
-```
-- [TWRP](https://t.me/Mi10TSeriesUpdates/392)
-
-```
-Optional: Format data if you're coming from another Custom ROM or a ROM that encrypts your data.
-- Wipe ► Format Data ► Type "yes"
-Wipe Dalvik Cache + Cache + Data
-
-- Wipe ► Advanced wipe ► Tick "Dalvik / ART Cache" & "Cache" & "Data" ► Swipe to wipe
-Flash the Custom ROM
-
-- Flash the Required firmware linked in the update post if you're coming from another Custom ROM
-Now just Reboot to system
+Download platform-tools and extract it
+Download ROM + recovery.img and place files in platform-tools folder
+then connect your phone to PC.
 ```
 
-### Dirty Flash
-
+1. Open CMD, and navigate to your platform-tools folder. Then fastboot boot recovery:
 ```
-- Copy the Custom ROM
-- Reboot to TWRP Recovery
-- Flash the copied Custom ROM
-- Flash the Required firmware linked in the update post
+fastboot boot recovery.img
+```
+2. On device, navigate to "Apply Update" & select "Apply from ADB"
+3. On PC, sideload the ROM (copy paste the zip name)
+```
+adb sideload "ROM-name".zip
+```
+***Wait for it to complete.***
+
+4. On device, navigate back to home screen (top left arrow) and find "Factory Reset"
+```
+This will factory reset the device, removing all user data
+```
+5. Boot and enjoy - firmware and recovery are included with the ROM
+
+<br>
+<br>
+
+**Dirty flashing:***
+```
+Just adb sideload the zip and reboot, that's all!
 ```
 
-### Firmware : Use latest fw 13.0.11.0
+**Note:**
+- IF YOU ARE MOVING FROM ANOTHER ROM, CLEAN FLASH Is COMPULSORY.
+- If adb sideload fails, unplug and replug the device to PC and try again
+- GCamGO included
