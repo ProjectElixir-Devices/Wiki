@@ -20,7 +20,8 @@
 2. Flash Magisk zip/apk.
 3. Reboot to system.
 
-## Recovery Link -> [TWRP](https://forum.xda-developers.com/t/recovery-stable-twrp-v3-6-0_11-for-realme-gt-neo-2-bitra-unofficial.4380685/)
+## Recovery Link -> [OrangeFox](https://t.me/RealmeGTNeo2_Updates/605)
+## Fitmware Link -> [FW](https://devuploads.com/users/arsalan_zeus/2789/FIRMWARE%20BITRA)
 
 ## Note
 1. RealmeUI 3 latest firmware is required before flashing. 
