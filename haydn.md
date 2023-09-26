@@ -17,3 +17,6 @@
 - Firmware is inbuilt.
 - Clean flash is compulsory if coming from a12. Can dirty flash if coming from a13 initial build.
 - Use Twrp or orange fox recovery.
+
+### Recovery link --> [TWRP](https://sourceforge.net/projects/recovery-for-xiaomi-devices/files/haydn/twrp-3.7.0_12-v7.9_A13-haydn-skkk.img/download)
+### Recovery link --> [OFOX](https://sourceforge.net/projects/builds-innuendo/upload/haydn-recovery/)
