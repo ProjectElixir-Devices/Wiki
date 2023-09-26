@@ -1,14 +1,19 @@
 ![Installation Guide For Project Elixir](https://i.imgur.com/3UmK6nS.png "Installation")
 
 ### Installation Guide For Project Elixir on Haydn
-- Reboot device into fastboot mode.
-- Flash the recovery.img provided -cmd fastboot flash boot <recovery.img>.
-- Reboot device into recovery -cmd fastboot reboot recovery or press volume-up + power button.
-- Format/factory reset.
-- Sideload rom.zip -cmd adb sideload <rom.zip>.
-- Reboot.
+
+- Download and boot into TWRP/Ofox img using
+- fastboot boot recovery.img
+- Flash Ofox/Twrp zip
+- Reboot Recovery
+- Wipe Data, Metadata, Cache, Dalvik-Cache
+- Copy ROM to Internal Storage and Flash ROM & Recovery (TWRP recommended for A13 ROMs) OR Sideload ROM
+- Reboot Recovery
+- Format Data
+- Reboot System
 
 ### Note:
+
 - Firmware is inbuilt.
 - Clean flash is compulsory if coming from a12. Can dirty flash if coming from a13 initial build.
 - Use Twrp or orange fox recovery.
