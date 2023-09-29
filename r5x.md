@@ -5,15 +5,14 @@
 Note:- (Rom is Encrypted Format Data Mandatory)
 
 ### Clean Flash- 
-- Wipe Metadata, data, cache, dalvik cache
-- flash Retrofit dynamic recovery
-- reboot recovery 
+- flash Retrofit dynamic recovery (Optional no need if you already on rdp based recovery)
+- reboot recovery
+- Wipe | Metadata, data, cache, dalvik cache
 - Flash Firmware C79 (Optional)
 - Flash rom
 - Format Data
 - Reboot
 
 Recovery link:- https://t.me/rmx_1911/1975
-
 
 ### Happy Flashing 🤟
