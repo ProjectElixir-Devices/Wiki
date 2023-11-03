@@ -4,7 +4,7 @@
 
 ## Note: 
 • Ensure that you are on MIUI V13.0.4.0 Firmware
-• Ensure that you use TWRP or OrangeFox for Android 13 ONLY
+• Ensure that you use recovery for Android 14 ONLY
 
 ### CLEAN FLASH (RECOMMENDED)
 1. Wipe data, Dalvik, Cache
