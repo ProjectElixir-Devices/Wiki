@@ -4,7 +4,7 @@
 
 ### Clean Flash:
 1. Go to Recovery (Android 13).
-2. Make sure you are on latest RealmeUI 3 firmware.
+2. Make sure you are on latest RealmeUI 4 firmware.
 3. Flash latest Rom zip file.
 4. Wipe data and clear cache.
 5. Reboot to system.
@@ -21,9 +21,9 @@
 3. Reboot to system.
 
 ## Recovery Link -> [OrangeFox](https://t.me/RealmeGTNeo2_Updates/605)
-## Fitmware Link -> [FW](https://devuploads.com/users/arsalan_zeus/2789/FIRMWARE%20BITRA)
+## Firmware Link -> [FW](https://devuploads.com/users/arsalan_zeus/2789/FIRMWARE%20BITRA)
 
 ## Note
-1. RealmeUI 3 latest firmware is required before flashing. 
-2. Use A13 (decryption supported) TWRP only feom above link.
+1. RealmeUI 4 latest firmware is required before flashing. 
+2. Use A13 (decryption supported) Recovery only from above link.
 3. If coming from Another ROM then wipe data and flash rom file. Do format data if reboot to recovery.
