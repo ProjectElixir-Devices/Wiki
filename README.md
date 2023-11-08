@@ -1,4 +1,4 @@
-![Installation Guide For Project Elixir](https://i.imgur.com/3UmK6nS.png)
+![Installation Guide For Project Elixir](https://i.imgur.com/42LxtAl.png)
 
 ## Welcome to the Installation Guide for Project Elixir !!
 
