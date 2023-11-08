@@ -1,4 +1,4 @@
-![Installation Guide For Project Elixir on Realme X50 Pro 5G](https://i.imgur.com/3UmK6nS.png "Installation")
+![Installation Guide For Project Elixir](https://i.imgur.com/42LxtAl.png)
 
 # Installation Guide For 'Project Elixir' on Realme X50 Pro 5G
 
