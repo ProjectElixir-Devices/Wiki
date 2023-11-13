@@ -1,6 +1,6 @@
 ![Installation Guide For Project Elixir](https://i.imgur.com/42LxtAl.png)
 
-# Installation Guide For 'Project Elixir' on Realme X50 Pro 5G
+# Installation Guide For 'Project Elixir' on Realme X50 Pro 5G and X50 Pro Player 5G
 
 A14 Recovery: [Link](https://www.pling.com/p/1945031/)
 
@@ -10,7 +10,8 @@ A14 Recovery: [Link](https://www.pling.com/p/1945031/)
 2. Make sure you are on latest RealmeUI 3 firmware.
 3. Flash latest Rom zip file.
 4. Wipe data and clear cache.
-5. Reboot to system.
+5. Format Data.
+6. Reboot to system.
 ```
 
 ### Dirty Flash:
@@ -30,9 +31,8 @@ A14 Recovery: [Link](https://www.pling.com/p/1945031/)
 
 ## Note
 ```
+1. This is a unified build for RMX2076, RMX2071, RMX2075 and RMX2072.
 1. If you are coming from A13 to A14 then clean flash is compulsory and format data.
 2. RealmeUI 3 latest firmware is required before flashing. 
 3. If coming from Another ROM then wipe data and flash rom file. Do format data if reboot to recovery.
-4. Only for RMX2076, RMX2071 and RMX2075.
-5. If you have RMX2072 check build for bladerunner_48m.
 ```
