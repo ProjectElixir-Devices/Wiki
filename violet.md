@@ -1,6 +1,6 @@
 ![Installation Guide For Project Elixir](https://i.imgur.com/42LxtAl.png)
 
-### Installation Guide For Project Elixir on Violet
+### Installation Guide For Project Elixir on Redmi Note 7 Pro (violet)
 
 ### Clean Flash
 ```
@@ -13,7 +13,7 @@
 - Reboot
 ```
 
-- A14 recovery: [Tap here for link](https://sourceforge.net/projects/project-elixir/files/fourteen/violet/recovery/)
+- A14 recovery: [Tap here for link](https://www.pling.com/p/1623145/)
 - DFE v4.zip : [Tap Here for link](https://drive.google.com/file/d/1fxx11QOCxXJGvMDGC5lRnom-M0nf8Dhd/view?usp=sharing)
 
 
