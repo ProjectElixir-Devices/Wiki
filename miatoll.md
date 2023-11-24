@@ -1,7 +1,7 @@
 ![Installation Guide For Project Elixir](https://i.imgur.com/3UmK6nS.png "Installation")
 # Installation Guide For Project Elixir on Miatoll
 
-##  **Note:** The device must have an unlocked bootloader. If you are moving from Android 11 or Android 12 to Android 13, it is necessary to install stable MIUI firmware and perform a CLEAN FLASH (Format Data).
+##  **Note:** The device must have an unlocked bootloader. If you are moving from Android 13 to Android 14, it is necessary to install stable MIUI firmware and perform a CLEAN FLASH (Format Data).
 
 ## Step 1: Download Required Files
 1. Download the latest Android platform tools for Windows from the link below:
