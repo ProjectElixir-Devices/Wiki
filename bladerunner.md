@@ -1,8 +1,8 @@
 ![Installation Guide For Project Elixir](https://i.imgur.com/42LxtAl.png)
 
-# Installation Guide For 'Project Elixir' on Realme X50 Pro 5G and X50 Pro Player 5G
+### Installation Guide For 'Project Elixir' on Realme X50 Pro 5G and X50 Pro Player 5G
 
-A14 Recovery: [Link](https://www.pling.com/p/1945031/)
+### A14 Recovery: [Link](https://www.pling.com/p/1945031/)
 
 ### Clean Flash:
 ```
