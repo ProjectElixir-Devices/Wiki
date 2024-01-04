@@ -2,7 +2,7 @@
 
 ### Installation Guide For Project Elixir on Redmi Note 7 Pro (violet)
 
-- A14 recovery: [Tap here for link](https://sourceforge.net/projects/lc-dev/files/lavender/TWRP-recovery-erofs-dynamic-partitions-230713.img/download)
+### A14 recovery: [Tap here for link](https://sourceforge.net/projects/lc-dev/files/lavender/TWRP-recovery-erofs-dynamic-partitions-230713.img/download)
 
 ### Clean Flash
 ```
