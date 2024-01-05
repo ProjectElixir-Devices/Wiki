@@ -13,10 +13,6 @@
 - Reboot
 ```
 
-- A14 recovery: [Tap here for link](https://www.pling.com/p/1623145/)
-- DFE v4.zip : [Tap Here for link](https://drive.google.com/file/d/1fxx11QOCxXJGvMDGC5lRnom-M0nf8Dhd/view?usp=sharing)
-
-
 ### Dirty Flashing Steps
 
 ### Encryption to Encryption :
@@ -38,11 +34,12 @@
 5. Reboot
 ```
 
-- Firmware is already included in zip no need to flash additionally!
-
 ### Note:
-```
+
+- A14 recovery: [Tap here for link](https://www.pling.com/p/1623145/)
+- DFE v4.zip : [Tap Here for link](https://drive.google.com/file/d/1fxx11QOCxXJGvMDGC5lRnom-M0nf8Dhd/view?usp=sharing)
+- Firmware and Gapps are already included in zip no need to flash additionally!
 - If you are coming from ports or HentaiOS = Format Data and flash latest firmware
 - If you are coming from A12/A13 to A14 then clean flash is compulsory and format data.
 - If you are encrypted do format Data before flashing build to avoid bugs.
-```
+
