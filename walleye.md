@@ -40,7 +40,6 @@ Specially for Project Elixir A14, you must repartition again your device. If you
 ```
 adb reboot bootloader
 ```
-   - You can also boot into fastboot mode via a key combination Wwith the device powered off, hold Volume Down + Power
 5. Once the device is in fastboot mode, verify your PC finds it by typing: 
 ```
 fastboot devices
@@ -58,7 +57,7 @@ adb sideload <partition_filename>.zip
    - Replace <partition_filename> with the actual filename or just drag & drop the file to the terminal
    - On the TWRP Recovery, select "Advance", "Adb sideload", then swipe to begin sideload
 9. After flash complete, on TWRP select return to the main menu
-10. Now tap Wipe, then Format data/factory reset and continue with the formatting process. Next reboot to recovery again
+10. Now tap Wipe, then select Format data/factory reset and continue with the formatting process.
 
 ## Flashing
 
@@ -67,7 +66,7 @@ adb sideload <partition_filename>.zip
 ```
 adb reboot bootloader
 ```
-2. Wipe data by typyng:
+2. Wipe data by typing:
 ```
 fastboot -w
 ```
@@ -95,6 +94,5 @@ adb sideload <ROM_filename>.zip
   - Replace <ROM_filename> with the actual filename or just drag the file to the terminal
 3. Reboot system
 
-```
-Note: If you want to back to the stock partition table, kindly flash the official Google factory image: [Stock Partiton - Pixel 2](https://developers.google.com/android/images#walleye)
-```
+## Note: 
+If you want to back to the stock partition table, kindly flash the official Google factory image: [Stock Partiton - Pixel 2](https://developers.google.com/android/images#walleye)
