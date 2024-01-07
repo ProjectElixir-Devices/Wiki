@@ -46,7 +46,9 @@ If your device is listed, proceed to the next step. If not, make sure your devic
 adb reboot bootloader
 ```
 
-### Step 3: Flash OrangeFox Recovery using Fastboot
+### Step 3: Flash Stable MIUI Firmware (fastboot)
+
+### Step 4: Flash OrangeFox Recovery using Fastboot
 1. Once your device is in Fastboot Mode, use the following command to check if Fastboot still detects your device:
 
 ```
@@ -75,26 +77,7 @@ fastboot reboot recovery
 
 Your device will reboot with OrangeFox Recovery installed.
 
-### Step 4: Wipe Data
-1. In OrangeFox Recovery, use the touch screen or physical buttons to navigate.
-
-2. Select "Wipe" from the main menu.
-
-3. Tap on "Format Data" and confirm by typing "yes" (without quotes) to perform a factory reset. This will erase all data on your device.
-
-### Step 5: Flash Stable MIUI Firmware
-
-**Note:** If you using OTG, then connect the OTG and Mount it.
-
-1. Go back to the main menu in recovery.
-
-2. Select "Install."
-
-3. Navigate to the location where you downloaded the stable MIUI firmware.
-
-4. Select the firmware file and swipe the slider to confirm the installation.
-
-### Step 6: Flash Project Elixir ROM
+### Step 5: Flash Project Elixir ROM
 1. Go back to the main menu in recovery.
 
 2. Select "Install."
@@ -102,6 +85,13 @@ Your device will reboot with OrangeFox Recovery installed.
 3. Navigate to the location where you downloaded the Project Elixir ROM.
 
 4. Select the ROM file and swipe the slider to confirm the installation.
+
+### Step 6: Wipe Data
+1. In OrangeFox Recovery, use the touch screen or physical buttons to navigate.
+
+2. Select "Wipe" from the main menu.
+
+3. Tap on "Format Data" and confirm by typing "yes" (without quotes) to perform a factory reset. This will erase all data on your device.
 
 ### Step 7: Reboot
 1. Once the ROM installation is complete, go back to the main menu in recovery.
