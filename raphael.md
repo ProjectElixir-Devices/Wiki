@@ -9,7 +9,10 @@
 2. Flash latest ofox recovery by amir
 3. Flash legacy to retrofit dynamic by @raphael_alpha.zip
 4. Flash latest a11 firmware (If coming from miui)
-5. Format Data (Mandatory)
+5. Flash Elixir rom
+6. Format Data (Mandatory)
+7. Reboot to system
+8. Enjoy
 ```
 
 ### Dirty Flashing (if already using a14 elixir)
