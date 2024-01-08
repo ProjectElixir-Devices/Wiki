@@ -5,9 +5,9 @@
 ###  **Note:** If you are moving from Android 13 to Android 14, it is necessary CLEAN FLASH (Format Data).
 
 ### Download we need
-- [Recovery (Telegram Link)](https://t.me/SakuraRomChat/2303)
+- [Recovery](https://www.pling.com/p/2076031/)
 - [ROM](https://projectelixiros.com/download)
-- [Firmware (Telegram Link)](https://t.me/SakuraRomChat/2334)
+- [Firmware](https://sourceforge.net/projects/project-elixir/files/fourteen/grus/firmware/)
 
 ### Clean flash
 1. Reboot to Bootloader
