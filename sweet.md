@@ -13,7 +13,7 @@
 - Reboot
 ```
 
-- A14 recovery: [Tap here for link](https://sourceforge.net/projects/project-elixir/files/fourteen/sweet/recovery/OrangeFox-R11.1_6-Unofficial-sweet-EROFSCompression.zip/download)
+- A14 recovery: [Tap here for link](https://www.pling.com/p/1630430/)
 - MIUI 14.x Firmware (sweet) : [Tap Here for link](https://xiaomifirmwareupdater.com/firmware/sweet/)
 - MIUI 14.x Firmware (sweetin) : [Tap Here for link](https://xiaomifirmwareupdater.com/firmware/sweetin/)
 
