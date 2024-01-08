@@ -14,16 +14,7 @@
 
 ### Dirty Flash
 
-### FROM LATEST OFFICIAL A13 BUILD :
-```
-1. Download the Latest Build
-2. Boot to recovery
-3. Flash ROM zip
-4. Wipe Dalvik and Cache in advance wipe
-5. Reboot
-```
-
-### FROM OFFICIAL A14 to A14 BUILD :
+**FROM OFFICIAL A14 to A14 BUILD :**
 ```
 1. Download the Latest Build
 2. Boot to recovery
@@ -32,6 +23,8 @@
 5. Reboot
 ```
 
+### Download the Recovery from the link below:
+   - Recovery Link [ For Android 14 ]: [Recovery](https://www.pling.com/p/1830777/)
 
 ### NOTES:
 ```
