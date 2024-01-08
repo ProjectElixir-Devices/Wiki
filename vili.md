@@ -10,7 +10,7 @@
    - **Platform Tools Link (Windows)**: [platform-tools-latest-windows.zip](https://dl.google.com/android/repository/platform-tools-latest-windows.zip)
 
 2. Download the Recovery from the link below:
-   - **Recovery Link [ For Android 14 ]:** [TWRP Recovery](https://t.me/tmdhubgroup/874/)
+   - **Recovery Link [ For Android 14 ]:** [TWRP Recovery](https://www.pling.com/p/2118899/)
 
 3. Download the Project Elixir ROM for Xiaomi 11T Pro aka Vili from a reliable source.
    - **Project Elixir ROM Link**: [DOWNLOAD](https://projectelixiros.com/device/vili)
