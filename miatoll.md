@@ -10,7 +10,7 @@
 1. Download the latest Android platform tools for Windows from the link below:
    - **Platform Tools Link (Windows)**: [platform-tools-latest-windows.zip](https://dl.google.com/android/repository/platform-tools-latest-windows.zip)
 
-2. Download the OrangeFox FBEv1 Recovery from the link below:
+2. Download the OrangeFox FBEv1 for A13 & FBEv2 for A14 Recovery from the link below:
    - **Recovery Link [ For Android 12, 13, 14 ]:** [Recovery](https://www.pling.com/p/1628174/)
 
 3. Download the stable MIUI firmware from the link below:
