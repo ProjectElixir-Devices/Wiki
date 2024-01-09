@@ -26,7 +26,7 @@
 ```
 ### Notes:
 
-- A14 recovery(Ofox): [Tap here for link](https://www.pling.com/p/1669362/)
+- A14 recovery: [Tap here for link](https://www.pling.com/p/1669362/)
 - Rom comes with Gapps inbuilt.
 - If you are coming from A12/A13 to A14 then clean flash must.
 - Clean flash always recommended to get the best experience.
