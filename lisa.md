@@ -16,23 +16,33 @@
    - **Project Elixir ROM Link**: [DOWNLOAD](https://projectelixiros.com/device/lisa)
 
 ### Clean Flash
-```
 - Download the latest build
 - Take a backup for safe side
 - Reboot to bootloader (fastboot)
 - Connect your phone to PC
-- fastboot flash dtbo dtbo.img
-- fastboot flash vendor_boot vendor_boot.img
-- fastboot flash boot boot.img
-- fastboot reboot recovery
+- Now, in fastboot flash recovery using the following command
+```
+fastboot flash dtbo dtbo.img
+```
+```
+fastboot flash vendor_boot vendor_boot.img
+```
+```
+fastboot flash boot boot.img
+```
+- After flashing the recovery, use the following command to reboot your Recovery:
+```
+fastboot reboot recovery
+```
+- Boot to recovery 
 - Select Wipe data/factory reset & confirm
 - Go back and select Apply update from ADB
-- adb sideload Project-Elixir*.zip(or drag down the rom zip to cmd)
-
+```
+adb sideload Project-Elixir*.zip(or drag down the rom zip to cmd)
+```
 Then kindly perform a format data in the recovery afterwards.
 
-Reboot! Enjoy! #Project-Elixir
-```
+Reboot! 
 
 ### Dirty Flashing Steps
 ```
