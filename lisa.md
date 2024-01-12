@@ -2,6 +2,19 @@
 
 ### Installation Guide For Project Elixir on Xiaomi 11 Lite NE 5G / Mi 11 LE (lisa)
 
+###  **Note:** 
+- The device must have an unlocked bootloader. If you are moving from Android 9/10/11/12/13 to Android 14, it is necessary CLEAN FLASH (Format Data).
+
+### Step 1: Download Required Files
+1. Download the latest Android platform tools for Windows from the link below:
+   - **Platform Tools Link (Windows)**: [platform-tools-latest-windows.zip](https://dl.google.com/android/repository/platform-tools-latest-windows.zip)
+
+2. Download the Recovery from the link below:
+   - **Recovery Link**: (https://sourceforge.net/projects/project-elixir/files/fourteen/lisa)
+
+3. Download the Project Elixir ROM for Xiaomi 11 Lite NE 5G / Mi 11 LE aka Lisa from a reliable source.
+   - **Project Elixir ROM Link**: [DOWNLOAD](https://projectelixiros.com/device/lisa)
+
 ### Clean Flash
 ```
 - Download the latest build
@@ -32,7 +45,7 @@ Reboot! Enjoy! #KeepEvolving
 ```
 ### Notes:
 
-- A14 recovery: [Tap here for link]()
+- A14 recovery: [Tap here for link](https://sourceforge.net/projects/project-elixir/files/fourteen/lisa)
 - Rom comes with Gapps inbuilt.
 - If you are coming from A12/A13 to A14 then clean flash must.
 - Clean flash always recommended to get the best experience.
