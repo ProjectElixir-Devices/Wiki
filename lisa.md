@@ -10,7 +10,7 @@
    - **Platform Tools Link (Windows)**: [platform-tools-latest-windows.zip](https://dl.google.com/android/repository/platform-tools-latest-windows.zip)
 
 2. Download the Recovery from the link below:
-   - **Recovery Link**: (https://sourceforge.net/projects/project-elixir/files/fourteen/lisa)
+   - **Recovery Link**: [Tap here to download](https://www.pling.com/p/2120336/)
 
 3. Download the Project Elixir ROM for Xiaomi 11 Lite NE 5G / Mi 11 LE aka Lisa from a reliable source.
    - **Project Elixir ROM Link**: [DOWNLOAD](https://projectelixiros.com/device/lisa)
@@ -45,7 +45,7 @@ Reboot! Enjoy! #KeepEvolving
 ```
 ### Notes:
 
-- A14 recovery: [Tap here for link](https://sourceforge.net/projects/project-elixir/files/fourteen/lisa)
+- A14 recovery and vendor: [Tap here for link](https://www.pling.com/p/2120336/)
 - Rom comes with Gapps inbuilt.
 - If you are coming from A12/A13 to A14 then clean flash must.
 - Clean flash always recommended to get the best experience.
