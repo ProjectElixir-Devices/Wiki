@@ -9,7 +9,7 @@
    - **Platform Tools Link (Windows)**: [platform-tools-latest-windows.zip](https://dl.google.com/android/repository/platform-tools-latest-windows.zip)
 
 2. Download Elixir Recovery from the link below:
-   - **Recovery Link [ For Android 14 ]:** [DOWNLOAD](https://sourceforge.net/projects/fajita/files/boot.img/download)
+   - **Recovery Link [ For Android 14 ]:** [DOWNLOAD](https://www.pling.com/p/1866093/)
 
 3. Download the stable OOS firmware from the link below:
    - **Firmware Link**: [OOS Firmware](https://download.h2os.com/OnePlus6T/MP/OnePlus6THydrogen_34.K.62_OTA_0620_all_2112282145_db7672c020714abb.zip)
@@ -18,10 +18,10 @@
    - **Project Elixir ROM Link**: [DOWNLOAD](https://projectelixiros.com/download)
 
 5. Download this super_empty.img file
-   - **super_empty.img**: [DOWNLOAD](https://sourceforge.net/projects/fajita/files/super_empty.img/download)
+   - **super_empty.img**: [DOWNLOAD](https://sourceforge.net/projects/project-elixir/files/fourteen/fajita/super_empty/)
 
 6. Download this vbmeta.img file
-   - **vbmeta.img**: [DOWNLOAD](https://sourceforge.net/projects/fajita/files/vbmeta.img/download)
+   - **vbmeta.img**: [DOWNLOAD](https://sourceforge.net/projects/project-elixir/files/fourteen/fajita/vbmeta/)
 
 ### Step 2: Initializing Dynamic partitions
 1. Download super_empty.img file
@@ -78,15 +78,18 @@ With the device powered off, hold Volume Down + Power.
 
 4. Return to the main menu.
 
-5. Sideload the PixelExperience Rom.zip package:
-
+5. Sideload the Project Elixir Rom.zip package:
+6. On the device, select “Apply Update”, then “Apply from ADB” to begin sideload.
+- On the host machine, sideload the package using:
 ```
-On the device, select “Apply Update”, then “Apply from ADB” to begin sideload.
-On the host machine, sideload the package using: adb sideload Rom.zip.
+adb sideload Rom.zip.
 ```
+7. Once you have installed everything successfully, click the back arrow in the top left of the screen, then “Reboot system now”.
 
-6. Once you have installed everything successfully, click the back arrow in the top left of the screen, then “Reboot system now”.
-
-###  **Note:** The first boot usually takes no longer than 15 minutes, depending on the device.
-
-###  **Tip:** If the installation process reports the message "(~47%) adb: failed to read the command: No error", do not worry, the process was completed successfully and you can restart the device.
+###  **Note:** 
+- The first boot usually takes no longer than 15 minutes, depending on the device.
+- If the installation process reports the message "(~47%)
+```
+adb: failed to read the command: No error
+```
+do not worry, the process was completed successfully and you can restart the device
