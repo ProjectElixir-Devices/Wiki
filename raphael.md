@@ -93,7 +93,7 @@ Your device will reboot with OFOX Recovery installed.
 - Flash legacy to retrofit dynamic by @raphael_alpha.zip
 - Flash latest a11 firmware (If coming from miui)
 - Flash Elixir rom
-- Format Data (Mandatory)
+- Format Data (if your data on ext4 then change it to f2fs instead of format data)
 - Reboot to system
 - Enjoy
 ```
