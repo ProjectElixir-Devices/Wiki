@@ -31,7 +31,7 @@ fastboot flashing unlock
 7. Since the device resets completely, you will need to re-enable USB debugging to continue.
 
 ### Repartition
-Specially for build provided by AR Project Studio, you must repartition again your device. If you have repartitioned with PixelExperience partition, well you just need to flash the new repart file, no need back to the stock partition again. But if you want to make all clean, you can do back to the stock patition firts then repart again.
+Specially for A14, you must repartition again your device. If you have repartitioned with PixelExperience partition, well you just need to flash the new repart file, no need back to the stock partition again. But if you want to make all clean, you can do back to the stock patition firts then repart again.
 
 1. Download [TWRP Recovery](https://github.com/Google-Pixel2-2XL/instalation_guide_wahoo/raw/evolution-x/taimen/twrp/twrp-3.7.0_9-0-taimen.img)
 2. Download [Partition A14 Pixel 2XL](https://github.com/Google-Pixel2-2XL/instalation_guide_wahoo/raw/evolution-x/taimen/repart/partition14-taimen.zip)
