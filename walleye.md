@@ -31,10 +31,10 @@ fastboot flashing unlock
 7. Since the device resets completely, you will need to re-enable USB debugging to continue.
 
 ### Repartition
-Specially for Project Elixir A14, you must repartition again your device. If you have repartitioned with partition A13, well you just need to flash the new repart file, no need to back to the stock partition again.
+Specially for A14, you must repartition again your device. If you have repartitioned with PixelExperience partition, well you just need to flash the new repart file, no need back to the stock partition again. But if you want to make all clean, you can do back to the stock patition firts then repart again.
 
 1. Download [TWRP Recovery](https://github.com/Google-Pixel2-2XL/instalation_guide_wahoo/raw/evolution-x/walleye/twrp/twrp-3.3.0-0-walleye.img)
-2. Download [productpartition-walleye-a14.zip](https://github.com/Google-Pixel2-2XL/instalation_guide_wahoo/raw/evolution-x/walleye/repart/productpartition-walleye-a14.zip)
+2. Download [Partition A14 Pixel 2](https://github.com/Google-Pixel2-2XL/instalation_guide_wahoo/raw/evolution-x/walleye/repart/partition14-walleye.zip)
 3. Connect your device to your PC via USB if it isn’t already.
 4. If your device isn’t already in fastboot mode, on the computer, open a command prompt (on Windows) or terminal (on Linux or macOS) window, and type:
 ```
@@ -73,7 +73,7 @@ fastboot -w
 3. Flash TWRP or boot.img provided
 4. Reboot to recovery
   - On the TWRP Recovery, select "Advance", "Adb sideload", then swipe to begin sideload
-  - On the Elixir Recovery, select "Apply update"
+  - On the recovery, select "Apply update"
 5. Sideload the ROM by typing:
 ```
 adb sideload <ROM_filename>.zip
@@ -86,7 +86,7 @@ adb sideload <ROM_filename>.zip
 ```
 adb reboot recovery
 ```
-  - On the Elixir Recovery, select "Apply update"
+  - On the recovery, select "Apply update"
 2. Sideload the ROM by typing
 ```
 adb sideload <ROM_filename>.zip
