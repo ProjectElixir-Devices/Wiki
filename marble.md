@@ -44,6 +44,7 @@
 
 - A14 recovery: [Tap here for link](https://www.pling.com/p/2131814/)
 - [Firmware](https://t.me/chaitanyabuilds/52705)
+- If facing Sms bug toggle sim on off on every boot and for rooted users flash this [smsfix zip file](https://t.me/chaitanyabuilds/52044)
 - Melt Kernel is not Supported
 - Boot time on silvercore and google gki will more than usual
 - Rom comes with Gapps inbuilt.
