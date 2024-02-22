@@ -2,22 +2,23 @@
 
 ### Installation Guide For Project Elixir on Redmi Note 7 Pro (violet)
 
-###  **Basic Note:** 
-- **Warning :** Project Elixir is not responsible for any damage you made to your device. You have been warned!
-- For any queries or help related to Elixir, join our support group : [Tap Here](https://telegram.me/Elixir_Discussion)
-```
-- Your warranty is void. Or valid, probably?
-- We are not responsible for anything that may happen to your phone by installing custom ROMs.
-- We are not responsible for anything that may happen to your phone by installing any kernels.
-- You do it at your own risk and take the responsibility upon yourself 
-- You are not to blame Project Elixir or its respected developers for any of your loss.
-- The provided instructions are for Elixir based on Android 14.
-- These will only work if you follow every section and step precisely
-- Do not continue after something fails! Contact in support group for help
-- The device must have an unlocked bootloader.
-- If you are moving from Android 9/10/11/12/13 to Android 14, it is necessary CLEAN FLASH (Format Data)
-- Take a backup for safe side (If you are coming from older Android version or doing a clean flash) 
-```
+> [!Warning]
+> * Your warranty is void. Or valid, probably?
+> * Project Elixir is not responsible for any damage you made to your device. You have been warned!
+> * We are not responsible for anything that may happen to your phone by installing custom ROMs.
+> * We are not responsible for anything that may happen to your phone by installing any kernels.
+> * You do it at your own risk and take the responsibility upon yourself
+> * You are not to blame Project Elixir or its respected developers for any of your loss.
+>
+> **Basic Notes for all users:**  
+> * The provided instructions are for Project Elixir based on Android 14.
+> * These will only work if you follow every section and step precisely
+> * Do not continue after something fails! Contact in support group for help
+> * The device must have an unlocked bootloader & has Platform Tools installed in pc.
+> * If you are moving from any other Android version to Android 14, it is necessary to do CLEAN FLASH (Format Data)
+> * Take a backup for safe side (If you are coming from older Android version or doing a clean flash)
+> * For any queries or help related to Elixir, join our support group : [Tap Here](https://telegram.me/Elixir_Discussion)  
+
 
 
 ### Step 1: Download Required Files
@@ -46,8 +47,8 @@
 ```
 adb devices
 ```
-
-If your device is listed, proceed to the next step. If not, make sure your device is connected properly and that USB debugging is enabled in the developer options.
+> [!Important]
+> If your device is listed, proceed to the next step. If not, make sure your device is connected properly and that USB debugging is enabled in the developer options.
 
 7. Now, reboot your device into Fastboot Mode using the following command:
 
@@ -73,8 +74,8 @@ If your device is listed, you are ready to flash the TWRP Recovery.
 ```
 fastboot flash recovery recovery_file_name.img
 ```
-
-**Replace `recovery_file_name.img` with the actual name of the TWRP Recovery image you downloaded if needed.**
+> [!Important]
+> Replace `recovery_file_name.img` with the actual name of the TWRP Recovery image you downloaded if needed.
 
 5. After flashing the recovery, use the following command to reboot your Recovery:
 
@@ -114,7 +115,8 @@ Your device will reboot with TWRP Recovery installed.
 ﻿﻿- Note if you want to be decryption or already decrypted then only flash DFE v5
 - Reboot System
 ```
-**NOTE: We have Switched Retrofit Dynamic Partitions from v4.1 or above**
+> [!Warning]
+> **NOTE: We have Switched Retrofit Dynamic Partitions from v4.1 or above**
 
 
 **Legacy ROM** `(v4.0 or below versions)` - **Clean Flash**
@@ -149,16 +151,19 @@ Decrypted to Decrypted `(Android 14 to Android 14)`
 5. Reboot
 ```
 
-### May Required Files:
-- Retrofit Supported Recovery : [Tap Here for link](https://sourceforge.net/projects/project-elixir/files/fourteen/violet/recovery/recovery_ProjectElixir_4.1_violet-14.0-20240221-1451-OFFICIAL.img/download)
-- Android 14 Legacy Recovery : [Tap here for link](https://sourceforge.net/projects/project-elixir/files/fourteen/violet/recovery/recovery.img/download)
-- DFE v4.zip : [Tap Here for link](https://sourceforge.net/projects/project-elixir/files/fourteen/violet/dfe/DFE%20v4.zip/download)
-- DFE v5.zip : [Tap Here for link](https://sourceforge.net/projects/project-elixir/files/fourteen/violet/dfe/DFE%20v5.zip/download)
+> [!Important]
+> **May Required Files:**
+> * Retrofit Supported Recovery : [Tap Here for link](https://sourceforge.net/projects/project-elixir/files/fourteen/violet/recovery/recovery_ProjectElixir_4.1_violet-14.0-20240221-1451-OFFICIAL.img/download)
+> * Android 14 Legacy Recovery : [Tap here for link](https://sourceforge.net/projects/project-elixir/files/fourteen/violet/recovery/recovery.img/download)
+> * DFE v4.zip : [Tap Here for link](https://sourceforge.net/projects/project-elixir/files/fourteen/violet/dfe/DFE%20v4.zip/download)
+> * DFE v5.zip : [Tap Here for link](https://sourceforge.net/projects/project-elixir/files/fourteen/violet/dfe/DFE%20v5.zip/download)
 
-### Notes specific to device build:
-- We have Switched Retrofit Dynamic Partitions from v4.1 or above
-- Firmware and Gapps are already included in zip no need to flash additionally!
-- If you are coming from ports or HentaiOS = Format Data and flash latest firmware
-- If you are coming from Android 12/13 to Android 14 then clean flash is compulsory and format data.
-- If you are encrypted do format Data before flashing build to avoid bugs.
+
+> [!Note] 
+> **Notes specific to device build**
+> * We have Switched Retrofit Dynamic Partitions from v4.1 or above
+> * Firmware and Gapps are already included in zip no need to flash additionally
+> * If you are coming from ports or HentaiOS you need to Format Data and flash latest firmware
+> * If you are coming from Android 12 or 13 to Android 14 then clean flash is compulsory and format data.
+> * If you are encrypted do format Data before flashing build to avoid bugs.
 
