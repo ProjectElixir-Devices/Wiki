@@ -2,8 +2,23 @@
 
 ### Installation Guide For Project Elixir on Redmi Note 7 Pro (violet)
 
-###  **Note:** 
-- The device must have an unlocked bootloader. If you are moving from Android 9/10/11/12/13 to Android 14, it is necessary CLEAN FLASH (Format Data).
+###  **Basic Note:** 
+- **Warning :** Project Elixir is not responsible for any damage you made to your device. You have been warned!
+- For any queries or help related to Elixir, join our support group : [Tap Here](https://telegram.me/Elixir_Discussion)
+```
+- Your warranty is void. Or valid, probably?
+- We are not responsible for anything that may happen to your phone by installing custom ROMs.
+- We are not responsible for anything that may happen to your phone by installing any kernels.
+- You do it at your own risk and take the responsibility upon yourself 
+- You are not to blame Project Elixir or its respected developers for any of your loss.
+- The provided instructions are for Elixir based on Android 14.
+- These will only work if you follow every section and step precisely
+- Do not continue after something fails! Contact in support group for help
+- The device must have an unlocked bootloader.
+- If you are moving from Android 9/10/11/12/13 to Android 14, it is necessary CLEAN FLASH (Format Data)
+- Take a backup for safe side (If you are coming from older Android version or doing a clean flash) 
+```
+
 
 ### Step 1: Download Required Files
 1. Download the latest Android platform tools for Windows from the link below:
@@ -14,9 +29,6 @@
 
 3. Download the Project Elixir ROM for Redmi Note 7 Pro aka Violet from a reliable source.
    - **Project Elixir ROM Link**: [DOWNLOAD](https://projectelixiros.com/device/violet)
-
-4. Download DFE zip from link below:
-   - **DFE v4 Link**: [Tap Here for link](https://drive.google.com/file/d/1fxx11QOCxXJGvMDGC5lRnom-M0nf8Dhd/view?usp=sharing)
 
 ### Step 2: Install ADB and Boot into Fastboot Mode
 1. Make sure you have ADB (Android Debug Bridge) installed on your computer. 
@@ -80,52 +92,73 @@ Your device will reboot with TWRP Recovery installed.
 3. Wipe Data and Davlik & cache and then proceed to format data by typing yes. And reboot to recovery again.
 
 ### Step 5: Flash Project Elixir ROM
-1. Then copy the Project Elixir ROM file to Internal storage or use OTG/SD card
-2. In the main menu in recovery.
-3. Select "Install."
-4. Navigate to the location where you downloaded the Project Elixir ROM.
+
+**Retrofit Dynamic Partitions** `(v4.1 and above versions)` - Clean Flash
+```
+- Download the latest build (Need to clean flash if you are on 4.0)
+- Take a backup for safe side (If you are coming from 4.0 you need to do a clean flash)
+- Flash provided recovery Retrofit Supported Recovery
+- Boot to Retrofit Supported Recovery
+- Wipe Data by going to "Factory reset" section in recovery (only click Format data/factory reset)
+﻿﻿- Wipe only Dalvik,cache and data (Only these 3 if coming from dynamic) else wipe system too if coming from legacy
+﻿﻿- Flash or sideload the ROM zip and Format data
+- If you want to be decrypted and want to stay decrypted then flash DFE v5
+- Reboot System
+```
+
+**Retrofit Dynamic Partitions** `(v4.1 and above versions)` - Dirty Flash
+```
+- Boot to Retrofit Supported Recovery
+- Wipe only Dalvik/cache
+- Flash or sideload the ROM zip
+﻿﻿- Note if you want to be decryption or already decrypted then only flash DFE v5
+- Reboot System
+```
+**NOTE: We have Switched Retrofit Dynamic Partitions from v4.1 or above**
+
+
+**Legacy ROM** `(v4.0 or below versions)` - **Clean Flash**
+```
+1. Copy the Project Elixir ROM (v4.0 or below) file to Internal storage or use OTG/SD card
+2. Boot In the recovery that supports Legacy ROM Android 14
+3. Format Data by typing yes
+4. Go to Install and Navigate to the location where you have kept the Project Elixir ROM.
 5. Select the ROM file and swipe the slider to confirm the installation.
-6. Flash DFE v4.zip for decryption (optional)
+6. If you want to be decryption then only Flash DFE v4.zip (optional)
 7. After insatlling successfully reboot to system.
-
-### Clean Flash
-```
-- Download the latest build
-- Take a backup for safe side
-- Boot to Recovery - must use A14 recovery - link below
-- Format Data by typing yes
-- Flash the latest build (dont flash fcrypt v3)
-- Flash DFE v4.zip for decryption (optional)
-- Reboot
 ```
 
-### Dirty Flashing Steps
+**Legacy ROM** `(v4.0 or below versions)` - **Dirty Flash**
 
-### Encryption to Encryption :
+Encryption to Encryption :
 ```
 1. Download the Latest Build
-2. Boot to A14 recovery
+2. Boot to Android 14 recovery
 3. Flash ROM zip
 4. Clear Dalvik and Cache in advance wipe
 5. Reboot
 ```
 
-### DIRTY FLASH WHEN YOU ARE DECRYPTED [A14 to A14]
+Decrypted to Decrypted `(Android 14 to Android 14)`
 ```
 1. Download the Latest Build
-2. Boot to A14 recovery
+2. Boot to Android 14 recovery
 3. Clear Dalvik and Cache in advance wipe
 3. Flash ROM zip
-4. Flash Fcrypt DFE v4 [Compulsory]
+4. Flash Fcrypt DFE v4 (Compulsory)
 5. Reboot
 ```
 
-### Note:
+### May Required Files:
+- Retrofit Supported Recovery : [Tap Here for link](https://sourceforge.net/projects/project-elixir/files/fourteen/violet/recovery/recovery_ProjectElixir_4.1_violet-14.0-20240221-1451-OFFICIAL.img/download)
+- Android 14 Legacy Recovery : [Tap here for link](https://sourceforge.net/projects/project-elixir/files/fourteen/violet/recovery/recovery.img/download)
+- DFE v4.zip : [Tap Here for link](https://sourceforge.net/projects/project-elixir/files/fourteen/violet/dfe/DFE%20v4.zip/download)
+- DFE v5.zip : [Tap Here for link](https://sourceforge.net/projects/project-elixir/files/fourteen/violet/dfe/DFE%20v5.zip/download)
 
-- A14 recovery: [Tap here for link](https://www.pling.com/p/1623145/)
-- DFE v4.zip : [Tap Here for link](https://drive.google.com/file/d/1fxx11QOCxXJGvMDGC5lRnom-M0nf8Dhd/view?usp=sharing)
+### Notes specific to device build:
+- We have Switched Retrofit Dynamic Partitions from v4.1 or above
 - Firmware and Gapps are already included in zip no need to flash additionally!
 - If you are coming from ports or HentaiOS = Format Data and flash latest firmware
-- If you are coming from A12/A13 to A14 then clean flash is compulsory and format data.
+- If you are coming from Android 12/13 to Android 14 then clean flash is compulsory and format data.
 - If you are encrypted do format Data before flashing build to avoid bugs.
 
