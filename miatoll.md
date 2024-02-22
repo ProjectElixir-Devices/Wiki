@@ -2,9 +2,26 @@
 
 ### Installation Guide For Project Elixir on Miatoll
 
-###  **Note:** 
-- The device must have an unlocked bootloader.
-- If you are moving from Android 13 to Android 14, it is necessary to install stable MIUI firmware and perform a CLEAN FLASH (Format Data).
+> [!Warning]
+> * Your warranty is void. Or valid, probably?
+> * Project Elixir is not responsible for any damage you made to your device. You have been warned!
+> * We are not responsible for anything that may happen to your phone by installing custom ROMs.
+> * We are not responsible for anything that may happen to your phone by installing any kernels.
+> * You do it at your own risk and take the responsibility upon yourself
+> * You are not to blame Project Elixir or its respected developers for any of your loss.
+>
+> **Basic Notes for all users:**  
+> * The provided instructions are for Project Elixir based on Android 14.
+> * These will only work if you follow every section and step precisely
+> * Do not continue after something fails! Contact in support group for help
+> * The device must have an unlocked bootloader & has Platform Tools installed in pc.
+> * If you are moving from any other Android version to Android 14, it is necessary to do CLEAN FLASH (Format Data)
+> * Take a backup for safe side (If you are coming from older Android version or doing a clean flash)
+> * For any queries or help related to Elixir, join our support group : [Tap Here](https://telegram.me/Elixir_Discussion)
+
+> [!Important]
+> * The device must have an unlocked bootloader.
+> * If you are moving from Android 13 to Android 14, it is necessary to install stable MIUI firmware and perform a CLEAN FLASH (Format Data).
 
 ### Step 1: Download Required Files
 1. Download the latest Android platform tools for Windows from the link below:
@@ -100,7 +117,7 @@ Your device will reboot with OrangeFox Recovery installed.
 
 3. Congratulations! Your device should now boot into Project Elixir ROM.
 
-### NOTE :
-- First boot may take some time, so be patient. Once the device boots up, follow the on-screen setup instructions, and you should be ready to explore the new ROM.
-- Remember, flashing custom ROMs carries some risks, and it may void your warranty. Make sure you understand the process and its consequences before proceeding.
-- Enjoy your new Project Elixir ROM experience on Miatoll!
+> [!Note]
+> * First boot may take some time, so be patient. Once the device boots up, follow the on-screen setup instructions, and you should be ready to explore the new ROM.
+> * Remember, flashing custom ROMs carries some risks, and it may void your warranty. Make sure you understand the process and its consequences before proceeding.
+> * Enjoy your new Project Elixir ROM experience on Miatoll!
