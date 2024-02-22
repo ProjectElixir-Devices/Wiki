@@ -39,7 +39,7 @@
 
 ```
 > [!Important]
-> **May Required Files:**
+> **Required Files:**
 > * A14 recovery: [Tap here for link](https://www.pling.com/p/1630430/)
 > * MIUI 14.x Firmware (sweet) : [Tap Here for link](https://xiaomifirmwareupdater.com/firmware/sweet/)
 > * MIUI 14.x Firmware (sweetin) : [Tap Here for link](https://xiaomifirmwareupdater.com/firmware/sweetin/)
