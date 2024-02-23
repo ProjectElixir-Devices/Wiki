@@ -19,6 +19,27 @@
 > * Take a backup for safe side (If you are coming from older Android version or doing a clean flash)
 > * For any queries or help related to Elixir, join our support group : [Tap Here](https://telegram.me/Elixir_Discussion)  
 
+### Step 1: Download Required Files
+1. Download the latest Android platform tools for Windows from the link below:
+   - **Platform Tools Link (Windows)**: [platform-tools-latest-windows.zip](https://dl.google.com/android/repository/platform-tools-latest-windows.zip)
+
+2. Download the Recovery from the link below:
+   - **Recovery Link**: [Tap here to download](https://www.pling.com/p/2131814/)
+
+3. Download the Project Elixir ROM for Poco F5 / Redmi Note 12T from a reliable source.
+   - **Project Elixir ROM Link**: [DOWNLOAD](https://projectelixiros.com/device/marble/)
+
+
+### How To Flash Recovery
+```
+- Download Recovery From link Below
+- Open platform Tools Folder in pc/laptop
+- Open Command Prompt 
+- fastboot flash recovery_ab recoveryimagename.img 
+- congrats Recovery is flashed 
+- Now reboot to Recovery and follow further steps
+```
+
 ### Clean Flash
 ```
 - Download the latest build
@@ -46,7 +67,10 @@
 - [Firmware](https://t.me/chaitanyabuilds/52705)
 - If facing Sms bug toggle sim on off on every boot and for rooted users flash this [smsfix zip file](https://t.me/chaitanyabuilds/52044)
 - Melt Kernel is not Supported
-- Boot time on silvercore and google gki will more than usual
+- First Boot time will be near 2 minutes so wait
+- Reboot time will be 30 seconds approx
+- Wait For atleat 1 day for the rom to settle down
+- Flash [This](https://github.com/tiann/KernelSU/releases/download/v0.7.6/AnyKernel3-android12-5.10.198_2023-11.zip) if Ksu Required
 - Rom comes with Gapps inbuilt.
 - If you are coming from A12/A13 to A14 then clean flash must.
 - Clean flash always recommended to get the best experience.
