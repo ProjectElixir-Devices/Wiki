@@ -50,15 +50,15 @@ adb devices
 adb reboot bootloader
 ```
 
-### Step 3: Flash LOS Recovery using Fastboot
+### Step 3: Flash Elixir Recovery using Fastboot
 1. Once your device is in Fastboot Mode, use the following command to check if Fastboot still detects your device:
 ```
 fastboot devices
 ```
-If your device is listed, you are ready to flash the LOS Recovery.
-2. Download the LOS Recovery ZIP (`.img` file will be in zip) from the link provided in Step 1.
-3. Place the downloaded LOS Recovery image (`.img` file) in the same location as the platform-tools folder on your computer.
-4. Now, flash the LOS Recovery using the following command:
+If your device is listed, you are ready to flash the Elixir Recovery.
+2. Download the Elixir Recovery ZIP (`.img` file will be in zip) from the link provided in Step 1.
+3. Place the downloaded Elixir Recovery image (`.img` file) in the same location as the platform-tools folder on your computer.
+4. Now, flash the Elixir Recovery using the following command:
 ```
 fastboot flash recovery recovery_file_name.img
 ```
@@ -67,10 +67,10 @@ fastboot flash recovery recovery_file_name.img
 ```
 fastboot reboot recovery
 ```
-Your device will reboot with LOS Recovery installed.
+Your device will reboot with Elixir Recovery installed.
 
 ### Step 4: Wipe Data
-1. In LOS Recovery, use the touch screen or physical buttons to navigate.
+1. In Elixir Recovery, use the touch screen or physical buttons to navigate.
 2. Select "Factory reset" from the main menu.
 3. Tap "Format data/factory reset" and proceed to wipe data.
 
