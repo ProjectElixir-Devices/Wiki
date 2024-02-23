@@ -26,7 +26,7 @@
 2. Download the Recovery from the link below:
    - **Recovery Link [ For Android 14 ]:** [Download Recovery](https://sourceforge.net/projects/project-elixir/files/fourteen/Spacewar/recovery/)
 
-3. Download the Project Elixir ROM for OnePlus 7 Pro aka guacamole from a reliable source.
+3. Download the Project Elixir ROM for Nothing Phone 1 (Spacewar) from a reliable source.
    - **Project Elixir ROM Link**: [DOWNLOAD](https://projectelixiros.com/device/Spacewar)
 
 ### Step 2: Install ADB and Boot into Fastboot Mode
