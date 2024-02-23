@@ -19,8 +19,6 @@
 > * Take a backup for safe side (If you are coming from older Android version or doing a clean flash)
 > * For any queries or help related to Elixir, join our support group : [Tap Here](https://telegram.me/Elixir_Discussion)  
 
-
-
 ### Step 1: Download Required Files
 1. Download the latest Android platform tools for Windows from the link below:
    - **Platform Tools Link (Windows)**: [platform-tools-latest-windows.zip](https://dl.google.com/android/repository/platform-tools-latest-windows.zip)
