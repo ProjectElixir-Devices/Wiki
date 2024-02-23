@@ -24,7 +24,7 @@
    - **Platform Tools Link (Windows)**: [platform-tools-latest-windows.zip](https://dl.google.com/android/repository/platform-tools-latest-windows.zip)
 
 2. Download the Recovery from the link below:
-   - **Recovery Link [ For Android 14 ]:** [TWRP Recovery](https://www.pling.com/p/1947572/)
+   - **Recovery Link [ For Android 14 ]:** [Elixir Recovery](https://www.pling.com/p/1947572/)
 
 3. Download the Project Elixir ROM for OnePlus 7 (guacamoleb) from a reliable source.
    - **Project Elixir ROM Link**: [DOWNLOAD](https://projectelixiros.com/device/guacamoleb)
@@ -78,9 +78,9 @@ fastboot oem unlock
 5. You’ll need to re-enable USB debugging to continue
 
 
-### Step 3: Flash TWRP Recovery using Fastboot
+### Step 3: Flash Elixir Recovery using Fastboot
 
-1. Download ProjectElixir Recovery from this link: [Tap Here](https://private.projectelixiros.com/Private/fourteen/guacamoleb/recovery/recovery_ProjectElixir_4.1_guacamoleb-14.0-20240207-0942-OFFICIAL.img)
+1. Download ProjectElixir Recovery from this link: [Tap Here](https://sourceforge.net/projects/project-elixir/files/fourteen/guacamoleb/recovery/)
  
 > [!Note]
 > - If download link doesn’t work we can extract recovery from rom zip file.
