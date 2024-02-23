@@ -24,7 +24,7 @@
    - **Platform Tools Link (Windows)**: [platform-tools-latest-windows.zip](https://dl.google.com/android/repository/platform-tools-latest-windows.zip)
 
 2. Download the Recovery from the link below:
-   - **Recovery Link [ For Android 14 ]:** [LOS Recovery](https://download.lineageos.org/devices/apollon/builds)
+   - **Recovery Link [ For Android 14 ]:** [Recovery](https://www.pling.com/p/1809937/)
      - Download the latest recovery.img
 
 3. Download the Project Elixir ROM for Mi 10T aka Apollo from a reliable source.
