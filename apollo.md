@@ -41,7 +41,10 @@
 ```
 adb devices
 ```
-If your device is listed, proceed to the next step. If not, make sure your device is connected properly and that USB debugging is enabled in the developer options.
+
+> [!Important]
+> - If your device is listed, proceed to the next step. If not, make sure your device is connected properly and that USB debugging is enabled in the developer options
+
 7. Now, reboot your device into Fastboot Mode using the following command:
 ```
 adb reboot bootloader
