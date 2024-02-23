@@ -61,17 +61,17 @@
 - Clean cache (Not necessary)
 - Reboot to System
 ```
-### Notes: 
 
-- A14 recovery: [Tap here for link](https://www.pling.com/p/2131814/)
-- [Firmware](https://t.me/chaitanyabuilds/52705)
-- If facing Sms bug toggle sim on off on every boot and for rooted users flash this [smsfix zip file](https://t.me/chaitanyabuilds/52044)
-- Melt Kernel is not Supported
-- First Boot time will be near 2 minutes so wait
-- Reboot time will be 30 seconds approx
-- Wait For atleat 1 day for the rom to settle down
-- Flash [This](https://github.com/tiann/KernelSU/releases/download/v0.7.6/AnyKernel3-android12-5.10.198_2023-11.zip) if Ksu Required
-- Rom comes with Gapps inbuilt.
-- If you are coming from A12/A13 to A14 then clean flash must.
-- Clean flash always recommended to get the best experience.
+> [!Important]
+> - A14 recovery: [Tap here for link](https://www.pling.com/p/2131814/)
+> - Firmware : [Tap Here for link](https://t.me/chaitanyabuilds/52705)
+> - If facing Sms bug toggle sim on off on every boot and for rooted users flash this [smsfix zip file](https://t.me/chaitanyabuilds/52044)
+> - Flash [This](https://github.com/tiann/KernelSU/releases/download/v0.7.6/AnyKernel3-android12-5.10.198_2023-11.zip) if Ksu Required
 
+> [!Note] 
+> - ROM comes with Gapps inbuilt no need to flash gapps.
+> - If you are coming from Android 12 or 13 to Android 14 then clean flash is compulsory.
+> - Melt Kernel is not Supported
+> - First Boot time may take 2 minutes so wait
+> - Reboot time may be 30 seconds for some cases approx
+> - Wait For atleat 1 day for the rom to settle down
