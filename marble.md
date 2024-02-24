@@ -65,7 +65,10 @@
 > [!Important]
 > - A14 recovery: [Tap here for link](https://www.pling.com/p/2131814/)
 > - Firmware : [Tap Here for link](https://t.me/chaitanyabuilds/52705)
-> - If facing Sms bug toggle sim on off on every boot and for rooted users flash this [smsfix zip file](https://t.me/chaitanyabuilds/52044)
+> - If facing Sms bug toggle sim on off on every boot and for rooted users flash this [smsfix zip file](https://sourceforge.net/projects/project-elixir/files/fourteen/marble/smsfix/)
+>    * If u r not receiving OTP or sms after booting rom or after restart, flash this in ksu or magisk and allow mobile to reboot
+Or
+If u r not rooted, u can Toggle sim off and on once. If still doesn't fix, then turn sim off first, then restart ur Mobile and then turn sim on.
 > - Flash [This](https://github.com/tiann/KernelSU/releases/download/v0.7.6/AnyKernel3-android12-5.10.198_2023-11.zip) if Ksu Required
 
 > [!Note] 
