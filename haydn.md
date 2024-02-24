@@ -19,18 +19,15 @@
 > * Take a backup for safe side (If you are coming from older Android version or doing a clean flash)
 > * For any queries or help related to Elixir, join our support group : [Tap Here](https://telegram.me/Elixir_Discussion)  
 
-###  **Note:** 
-- The device must have an unlocked bootloader. If you are moving from Android 9/10/11/12/13 to Android 14, it is necessary CLEAN FLASH (Format Data).
-
 ### Step 1: Download Required Files
 1. Download the latest Android platform tools for Windows from the link below:
    - **Platform Tools Link (Windows)**: [platform-tools-latest-windows.zip](https://dl.google.com/android/repository/platform-tools-latest-windows.zip)
 
 2. Download the Recovery from the link below:
-   - **Recovery Link [ For Android 14 ]:** [TWRP Recovery](https://www.pling.com/p/1824941/)
+   - **Recovery Link [ For Android 14 ]:** [Recovery](https://www.pling.com/p/1824941/)
 
 3. Download the Project Elixir ROM for Redmi K40 Pro/Pro+/Mi 11i/Mi 11X Pro aka Haydn/Haydnin from a reliable source.
-   - **Project Elixir ROM Link**: [DOWNLOAD](https://projectelixiros.com/device/RedmiK40Pro)
+   - **Project Elixir ROM Link**: [DOWNLOAD](https://projectelixiros.com/device/haydn)
 
 ### Step 2: Install ADB and Boot into Fastboot Mode
 1. Make sure you have ADB (Android Debug Bridge) installed on your computer. 
@@ -102,9 +99,6 @@ Your device will reboot with TWRP Recovery installed.
 - Flash the rom.zip
 - Reboot to System
 ```
-
-
- A14 recovery: [Tap here for link](https://www.pling.com/p/1824941/)  
 
 > [!Note] 
 > **Notes specific to device build**
