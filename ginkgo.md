@@ -5,7 +5,7 @@
 ###  **Note:** 
 - The device must have an unlocked bootloader. If you are moving from Android 9/10/11/12/13 to Android 14, it is necessary CLEAN FLASH (Format Data).
 
-### Step 1: Download Required Files
+### Step 1: Download Required Files:
 1. Download the latest Android platform tools for Windows from the link below:
    - **Platform Tools Link (Windows)**: [platform-tools-latest-windows.zip](https://dl.google.com/android/repository/platform-tools-latest-windows.zip)
 
@@ -15,10 +15,7 @@
 3. Download the Project Elixir ROM for Redmi Note 8 / 8T aka ginkgo / willow from a reliable source.
    - **Project Elixir ROM Link**: [DOWNLOAD](https://projectelixiros.com/device/ginkgo)
 
-4. Download DFE zip from link below:
-   - **DFE v4 Link**: [Tap Here for link](https://drive.google.com/file/d/1fxx11QOCxXJGvMDGC5lRnom-M0nf8Dhd/view?usp=sharing)
-
-### Step 2: Install ADB and Boot into Fastboot Mode
+### Step 2: Install ADB and Boot into Fastboot Mode:
 1. Make sure you have ADB (Android Debug Bridge) installed on your computer. 
 
 2. Extract the downloaded platform-tools zip file on your computer.
@@ -43,7 +40,7 @@ If your device is listed, proceed to the next step. If not, make sure your devic
 adb reboot bootloader
 ```
 
-### Step 3: Flash TWRP Recovery using Fastboot
+### Step 3: Flash TWRP Recovery using Fastboot:
 1. Once your device is in Fastboot Mode, use the following command to check if Fastboot still detects your device:
 
 ```
@@ -72,36 +69,32 @@ fastboot reboot recovery
 
 Your device will reboot with TWRP Recovery installed.
 
-### Step 4: Wipe Data
+### Step 4: Wipe Data:
 1. In TWRP Recovery, use the touch screen or physical buttons to navigate.
 
 2. Select "Wipe" from the main menu.
 
 3. Wipe Data and Davlik & cache and then proceed to format data by typing yes. And reboot to recovery again.
 
-### Step 5: Flash Project Elixir ROM
+### Step 5: Flash Project Elixir ROM:
 1. Then copy the Project Elixir ROM file to Internal storage or use OTG/SD card
 2. In the main menu in recovery.
 3. Select "Install."
 4. Navigate to the location where you downloaded the Project Elixir ROM.
 5. Select the ROM file and swipe the slider to confirm the installation.
-6. Flash DFE v4.zip for decryption (optional)
-7. After insatlling successfully reboot to system.
+6. After insatlling successfully reboot to system.
 
-### Clean Flash
+### Clean Flash (If Coming from any other os then Project Elixir):
 ```
 - Download the latest build
 - Take a backup for safe side
 - Boot to Recovery - must use A14 recovery - link below
 - Format Data by typing yes
-- Flash the latest build (dont flash fcrypt v3)
-- Flash DFE v4.zip for decryption (optional)
+- Flash the latest build
 - Reboot
 ```
 
-### Dirty Flashing Steps
-
-### Encryption to Encryption :
+### Dirty Flashing Steps (If coming from older versions of Project Elixir):
 ```
 1. Download the Latest Build
 2. Boot to A14 recovery
@@ -110,22 +103,11 @@ Your device will reboot with TWRP Recovery installed.
 5. Reboot
 ```
 
-### DIRTY FLASH WHEN YOU ARE DECRYPTED [A14 to A14]
-```
-1. Download the Latest Build
-2. Boot to A14 recovery
-3. Clear Dalvik and Cache in advance wipe
-3. Flash ROM zip
-4. Flash Fcrypt DFE v4 [Compulsory]
-5. Reboot
-```
 
-### Note:
+### Notes:
 
 - A14 recovery: [Tap here for link](https://www.pling.com/p/1738205/)
-- DFE v4.zip : [Tap Here for link](https://drive.google.com/file/d/1fxx11QOCxXJGvMDGC5lRnom-M0nf8Dhd/view?usp=sharing)
 - Firmware and Gapps are already included in zip no need to flash additionally!
-- If you are coming from ports or HentaiOS = Format Data and flash latest firmware
-- If you are coming from A12/A13 to A14 then clean flash is compulsory and format data.
+- If you are coming from ports or Miui based roms = Format Data and flash latest firmware
+- If you are coming from A9/A10/A11/A12/A13 to A14 then clean flash is compulsory and format data.
 - If you are encrypted do format Data before flashing build to avoid bugs.
-
