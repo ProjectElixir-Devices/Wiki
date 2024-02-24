@@ -85,7 +85,7 @@ fastboot oem unlock
 > [!Note]
 > - If download link doesn’t work we can extract recovery from rom zip file.
 
-**Steps to extract Boot img from ROM zip**
+### Steps to extract Boot img from ROM zip
 - Download Project Elixir Rom & Download `FastbootEnanche` from this link: [Tap Here](https://github.com/libxzr/FastbootEnhance/releases/download/v1.4.0/Release.zip) and extract it on your desktop
 - Open “FastEnanche.exe
 - Go into “Payload Dumper” window
