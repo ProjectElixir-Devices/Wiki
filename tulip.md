@@ -42,7 +42,7 @@
 
 > [!Important]
 > **Required Files:**
-> * Retrofit Dynamic Recovery: [Tap here for link](https://sourceforge.net/projects/mocha-development/files/tulip/twrp/dynamic.recovery.img/download)
+> * Retrofit Dynamic Recovery: [Tap here for link](https://www.pling.com/p/1634546/)
 
 > [!Note]
 > **Notes specific to device build**
