@@ -31,63 +31,45 @@
 
 ### Step 2: Install ADB and Boot into Fastboot Mode
 1. Make sure you have ADB (Android Debug Bridge) installed on your computer. 
-
 2. Extract the downloaded platform-tools zip file on your computer.
-
 3. Connect your device to your computer using a USB cable.
-
 4. Open a command prompt (Windows) or terminal (macOS and Linux) on your computer.
-
 5. Navigate to the location where you extracted the platform-tools.
-
 6. Enter the following command to check if your device is connected and detected by ADB:
-
 ```
 adb devices
 ```
 > [!Important]
 > If your device is listed, proceed to the next step. If not, make sure your device is connected properly and that USB debugging is enabled in the developer options.
-
 7. Now, reboot your device into Fastboot Mode using the following command:
-
 ```
 adb reboot bootloader
 ```
 
-### Step 3: Flash TWRP Recovery using Fastboot
+### Step 3: Flash Recovery using Fastboot
 1. Once your device is in Fastboot Mode, use the following command to check if Fastboot still detects your device:
-
 ```
 fastboot devices
 ```
-
-If your device is listed, you are ready to flash the TWRP Recovery.
-
+> [!Note] 
+> - If your device is listed, you are ready to flash the TWRP Recovery.
 2. Download the TWRP Recovery ZIP (`.img` file will be in zip) from the link provided in Step 1.
-
 3. Place the downloaded TWRP Recovery image (`.img` file) in the same location as the platform-tools folder on your computer.
-
 4. Now, flash the TWRP Recovery using the following command:
-
 ```
 fastboot flash recovery recovery_file_name.img
 ```
 > [!Important]
 > Replace `recovery_file_name.img` with the actual name of the TWRP Recovery image you downloaded if needed.
-
 5. After flashing the recovery, use the following command to reboot your Recovery:
-
 ```
 fastboot reboot recovery
 ```
-
-Your device will reboot with TWRP Recovery installed.
+6. Your device will reboot with Recovery installed.
 
 ### Step 4: Wipe Data
 1. In TWRP Recovery, use the touch screen or physical buttons to navigate.
-
 2. Select "Wipe" from the main menu.
-
 3. Wipe Data and Davlik & cache and then proceed to format data by typing yes. And reboot to recovery again.
 
 ### Step 5: Flash Project Elixir ROM
