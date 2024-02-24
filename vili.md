@@ -100,7 +100,7 @@ Your device will reboot with TWRP Recovery installed.
 
 > [!Note] 
 > **Notes specific to device build**
-> - A14 recovery: [Tap here for link](https://t.me/tmdhubgroup/874)
+> - A14 recovery: [Tap here for link](https://www.pling.com/p/2118899/)
 > - Firmware and Gapps are already included in zip no need to flash additionally!
 > - If you are coming from A12/A13 to A14 then clean flash is compulsory and format data.
 > - If you are encrypted do format Data before flashing build to avoid bugs.
