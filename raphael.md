@@ -176,3 +176,8 @@ Decryption to Decryption `(Android 13 to Android 13)`
 > * If you are encrypted do format Data before flashing build to avoid bugs.
 > * If you want to flash with decryption (DFE NEO) then do that your own risk.
 > * If you're facing storage permission issues in certain apps/games after clean flash, [Follow this](https://t.me/ElixerRaphael/8707)
+
+<br>
+
+> [!Important]
+> **Donate**: [Do consider donating or buying us a coffee](https://projectelixiros.com/donate)
