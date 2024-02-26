@@ -147,3 +147,7 @@ Decrypted to Decrypted `(Android 14 to Android 14)`
 > * If you are coming from Android 12 or 13 to Android 14 then clean flash is compulsory and format data.
 > * If you are encrypted do format Data before flashing build to avoid bugs.
 
+<br>
+
+> [!Important]
+> **Donate**: [Do consider donating or buying us a coffee](https://projectelixiros.com/donate)
