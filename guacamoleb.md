@@ -158,3 +158,8 @@ adb sideload filename.zip
 > [!Note]
 > - Normally, adb will report Total xfer: 1.00x, but in some cases, even if the process succeeds the output will stop at 47% and report Total xfer: 0.98x or adb: failed to read command: Success. In some cases it will report adb: failed to read command: No error or adb: failed to read command: Undefined error: 0 which is also fine.
 > - The first boot usually takes no longer than 15 minutes, depending on the device. If it takes longer, you may have missed a step, otherwise feel free to get assistance.
+
+<br>
+
+> [!Important]
+> **Donate**: [Do consider donating or buying us a coffee](https://projectelixiros.com/donate)
