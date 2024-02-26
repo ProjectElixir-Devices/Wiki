@@ -27,8 +27,3 @@
 ```
 - If you are coming from A12/A13 to A14 then clean flash is compulsory and format data.
 ```
-
-<br>
-
-> [!Important]
-> **Donate**: [Do consider donating or buying us a coffee](https://projectelixiros.com/donate)
