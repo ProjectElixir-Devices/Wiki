@@ -78,3 +78,8 @@ If u r not rooted, u can Toggle sim off and on once. If still doesn't fix, then 
 > - First Boot time may take 2 minutes so wait
 > - Reboot time may be 30 seconds for some cases approx
 > - Wait For atleat 1 day for the rom to settle down
+
+<br>
+
+> [!Important]
+> **Donate**: [Do consider donating or buying us a coffee](https://projectelixiros.com/donate)
