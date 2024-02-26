@@ -69,9 +69,13 @@ Reboot!
 - After installation complete
 
 Reboot! Enjoy!
-```
-### Notes:
 
+### Notes:
 - A14 recovery and vendor: [Tap here for link](https://sourceforge.net/projects/project-elixir/files/fourteen/stone)
 - Rom comes with Gapps inbuilt.
 - Clean flash always recommended to get the best experience.
+
+<br>
+
+> [!Important]
+> **Donate**: [Do consider donating or buying us a coffee](https://projectelixiros.com/donate)
