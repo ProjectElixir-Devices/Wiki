@@ -19,3 +19,8 @@
 > * If you are moving from any other Android version to Android 14, it is necessary to do CLEAN FLASH (Format Data)
 > * Take a backup for safe side (If you are coming from older Android version or doing a clean flash)
 > * For any queries or help related to Elixir, join our support group : [Tap Here](https://telegram.me/Elixir_Discussion)  
+
+<br>
+
+> [!Important]
+> **Donate**: [Do consider donating or buying us a coffee](https://projectelixiros.com/donate)
