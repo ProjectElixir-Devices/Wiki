@@ -72,11 +72,15 @@ Reboot!
 - In the recovery menu select Apply update through ADB
 - adb sideload Project-Elixir*.zip(or drag down the rom zip to cmd)
 - After installation complete
-
-Reboot! Enjoy!
 ```
-### Notes:
+Reboot! Enjoy!
 
+### Notes:
 - A14 recovery and vendor: [Tap here for link](https://sourceforge.net/projects/project-elixir/files/fourteen/redwood)
 - Rom comes with Gapps inbuilt.
 - Clean flash always recommended to get the best experience.
+
+<br>
+
+> [!Important]
+> **Donate**: [Do consider donating or buying us a coffee](https://projectelixiros.com/donate)
