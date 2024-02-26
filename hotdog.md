@@ -97,3 +97,8 @@ fastboot boot twrp-3.6.2_11-0-hotdog.img
 > - Firmware and Gapps are already included in zip no need to flash additionally
 > - If you are encrypted do format Data before flashing build to avoid bugs.
 > - If you are coming from Android 12 or 13 to Android 14 then clean flash is compulsory and format data.
+
+<br>
+
+> [!Important]
+> **Donate**: [Do consider donating or buying us a coffee](https://projectelixiros.com/donate)
