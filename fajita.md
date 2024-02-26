@@ -120,3 +120,8 @@ adb sideload Rom.zip.
 adb: failed to read the command: No error
 ```
 > - Don't worry, the process was completed successfully and you can restart the device
+
+<br>
+
+> [!Important]
+> **Donate**: [Do consider donating or buying us a coffee](https://projectelixiros.com/donate)
