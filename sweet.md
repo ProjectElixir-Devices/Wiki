@@ -49,3 +49,8 @@
 > * Gapps are already included in zip no need to flash additionally.
 > * If you are coming from ports or other Custom Roms or MIUI Ports, Format Data and flash latest firmware is mandatory
 > * If you are coming from A13 to A14 clean flash is compulsory and format data.
+
+<br>
+
+> [!Important]
+> **Donate**: [Do consider donating or buying us a coffee](https://projectelixiros.com/donate)
