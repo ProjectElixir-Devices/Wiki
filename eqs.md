@@ -129,3 +129,8 @@ Your device will reboot with SHRP Recovery installed.
 - Gapps are already included in zip no need to flash additionally!
 - If you are coming from A12/A13 to A14 then clean flash is compulsory and format data.
 - Make sure you are on stock A12 firmware else device will bootloop!
+
+<br>
+
+> [!Important]
+> **Donate**: [Do consider donating or buying us a coffee](https://projectelixiros.com/donate)
