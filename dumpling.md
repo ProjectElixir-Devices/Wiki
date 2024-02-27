@@ -73,7 +73,8 @@ adb devices
 ```
 
 > [!Important]
-> If your device is listed, proceed to the next step. If not, make sure your device is connected properly and that USB debugging is enabled in the developer options. 7. Now, reboot your device into Fastboot Mode using the following command:
+> If your device is listed, proceed to the next step. If not, make sure your device is connected properly and that USB debugging is enabled in the developer options.
+7. Now, reboot your device into Fastboot Mode using the following command:
 
 ```
 adb reboot bootloader
@@ -88,13 +89,11 @@ fastboot devices
 ```
 
 > [!Note]
->
 > - If your device is listed, you are ready to flash the Orangefox Recovery. (TWRP is fine as well)
->
-> 2. Download the Orangefox Recovery ZIP (`.img` file will be in zip) from the link provided in Step 1.
-> 3. Open the directory where the orangefox's .img file is located and, open the powershell window in the same directory (If you followed step 2A)
-> 4. Place the downloaded OrangeFox Recovery image (`.img` file) in the same location as the platform-tools folder on your computer. (If you followed step 2B)
-> 5. Now, flash the OrangeFox Recovery using the following command:
+2. Download the Orangefox Recovery ZIP (`.img` file will be in zip) from the link provided in Step 1.
+3. Open the directory where the orangefox's .img file is located and, open the powershell window in the same directory (If you followed step 2A)
+4. Place the downloaded OrangeFox Recovery image (`.img` file) in the same location as the platform-tools folder on your computer. (If you followed step 2B)
+5. Now, flash the OrangeFox Recovery using the following command:
 
 ```
 fastboot flash recovery .\recovery.img
@@ -138,15 +137,15 @@ fastboot reboot recovery
 - Reboot System
 ```
 
-> [!Important] > **May Required Files:**
->
+> [!Important]
+> **May Required Files:**
 > - Android 14 Recovery Link : [Tap here for link](https://sourceforge.net/projects/project-elixir/files/fourteen)
 > - Any Extra File link if required : [Tap Here for link](https://sourceforge.net/projects/project-elixir/files/fourteen)
 
 <br>
 
-> [!Note] > **Notes specific to device build**
->
+> [!Note]
+> **Notes specific to device build**
 > - Gapps is already included in zip no need to flash additionally
 > - If you are coming from PORTs then you need to Format Data and flash latest firmware [depending on the device]
 > - If you are coming from Android 12 or 13 to Android 14 then clean flash is compulsory and format data.
@@ -154,4 +153,5 @@ fastboot reboot recovery
 
 <br>
 
-> [!Important] > **Donate**: [Do consider donating or buying us a coffee](https://projectelixiros.com/donate)
+> [!Important]
+> **Donate**: [Do consider donating or buying us a coffee](https://projectelixiros.com/donate)
