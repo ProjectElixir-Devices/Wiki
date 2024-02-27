@@ -122,16 +122,19 @@ fastboot reboot recovery
 ```
 - Download the latest build
 - Take a backup for safe side (If you need to do a clean flash)
-- Boot to Android 14 Recovery
-**FILL HERE WITH THE STEPS FOR FLASHING OR SIDELOADING**
+- Boot to Orangefox Recovery
+- Select the build file then flash.
+- (optional) Flash firmware if you face any driver issues.
+- (optional) Flash Magisk if you want.
 - Reboot System
 ```
 
 **- Dirty Flash**
 
 ```
-- Boot to Android 14 Recovery
-**FILL HERE WITH THE STEPS FOR FLASHING OR SIDELOADING**
+- Boot to OrangeFox Recovery
+- Select the build file then flash.
+- (optional) Flash Magisk if you want.
 - Reboot System
 ```
 
