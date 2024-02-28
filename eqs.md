@@ -28,7 +28,7 @@
    - **Platform Tools Link (Windows)**: [platform-tools-latest-windows.zip](https://dl.google.com/android/repository/platform-tools-latest-windows.zip)
 
 2. Download the Recovery from the link below:
-   - **Recovery Link [ For Android 14 ]:** [SHRP Recovery](https://t.me/moto_edge_30_ultra_updates/163)
+   - **Recovery Link [ For Android 14 ]:** [SHRP Recovery](https://projectelixiros.com/device/eqs)
 
 3. Download the Project Elixir ROM for Moto Edge 30 Ultra/X30 Pro aka eqs from a reliable source.
    - **Project Elixir ROM Link**: [DOWNLOAD](https://projectelixiros.com/device/eqs)
