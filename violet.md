@@ -78,8 +78,8 @@ fastboot reboot recovery
 ```
 - Download the latest build (Need to clean flash if you are on 4.0)
 - Take a backup for safe side (If you are coming from 4.0 you need to do a clean flash)
-- Flash provided recovery Retrofit Supported Recovery
-- Boot to Retrofit Supported Recovery
+- Flash provided recovery Retrofit Supported Recovery from link [Same like step 3]
+- Boot to Retrofit Supported Recovery 
 - Wipe Data by going to "Factory reset" section in recovery (only click Format data/factory reset)
 ﻿﻿- Wipe only Dalvik,cache and data (Only these 3 if coming from dynamic) else wipe system too if coming from legacy
 ﻿﻿- Flash or sideload the ROM zip and Format data
@@ -92,12 +92,11 @@ fastboot reboot recovery
 - Boot to Retrofit Supported Recovery
 - Wipe only Dalvik/cache
 - Flash or sideload the ROM zip
-﻿﻿- Note if you want to be decryption or already decrypted then only flash DFE v5
+﻿﻿- If you are already decrypted then only flash DFE v5 else skip it
 - Reboot System
 ```
 > [!Warning]
 > **NOTE: We have Switched Retrofit Dynamic Partitions from v4.1 or above**
-
 
 **Legacy ROM** `(v4.0 or below versions)` - **Clean Flash**
 ```
@@ -133,7 +132,7 @@ Decrypted to Decrypted `(Android 14 to Android 14)`
 
 > [!Important]
 > **May Required Files:**
-> * Retrofit Supported Recovery : [Tap Here for link](https://sourceforge.net/projects/project-elixir/files/fourteen/violet/recovery/recovery_ProjectElixir_4.1_violet-14.0-20240221-1451-OFFICIAL.img/download)
+> * Retrofit Supported Recovery : [Tap Here for link](https://sourceforge.net/projects/project-elixir/files/fourteen/violet/recovery/twrp-violet-20240209-casefolding.img/download)
 > * Android 14 Legacy Recovery : [Tap here for link](https://sourceforge.net/projects/project-elixir/files/fourteen/violet/recovery/recovery.img/download)
 > * DFE v4.zip : [Tap Here for link](https://sourceforge.net/projects/project-elixir/files/fourteen/violet/dfe/DFE%20v4.zip/download)
 > * DFE v5.zip : [Tap Here for link](https://sourceforge.net/projects/project-elixir/files/fourteen/violet/dfe/DFE%20v5.zip/download)
