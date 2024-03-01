@@ -24,7 +24,7 @@
    - **Platform Tools Link (Windows)**: [platform-tools-latest-windows.zip](https://dl.google.com/android/repository/platform-tools-latest-windows.zip)
 
 2. Download the Recovery from the link below:
-   - **Recovery Link [ For Android 14 ]:** [Recovery](https://sourceforge.net/projects/project-elixir/files/fourteen)
+   - **Recovery Link [ For Android 14 ]:** [Recovery](https://projectelixiros.com/download)
 
 3. Download the Project Elixir ROM for Redmi Note 7 Pro aka Violet from a reliable source.
    - **Project Elixir ROM Link**: [DOWNLOAD](https://projectelixiros.com/download)
@@ -92,7 +92,7 @@ fastboot reboot recovery
 
 > [!Important]
 > **May Required Files:**
-> * Android 14 Recovery Link : [Tap here for link](https://sourceforge.net/projects/project-elixir/files/fourteen)
+> * Android 14 Recovery Link : [Tap here for link](https://projectelixiros.com/download)
 > * Any Extra File link if required : [Tap Here for link](https://sourceforge.net/projects/project-elixir/files/fourteen)
 
 <br>
