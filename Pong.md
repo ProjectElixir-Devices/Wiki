@@ -26,7 +26,7 @@
 2. Download the Recovery from the link below:
    - **Recovery Link [ For Android 14 ]:** [Recovery](https://projectelixiros.com/download)
 
-3. Download the Project Elixir ROM for Redmi Note 7 Pro aka Violet from a reliable source.
+3. Download the Project Elixir ROM for Nothing Phone 2 aka Pong from a reliable source.
    - **Project Elixir ROM Link**: [DOWNLOAD](https://projectelixiros.com/download)
 
 ### Step 2: Install ADB and Boot into Fastboot Mode
@@ -52,39 +52,74 @@ adb reboot bootloader
 fastboot devices
 ```
 > [!Note] 
-> - If your device is listed, you are ready to flash the Recovery.
-2. Download the Recovery image from the link provided in Step 1.
+> - If your device is listed, you are ready to flash the TWRP Recovery.
+2. Download the Recovery.img from the link provided in Step 1.
 3. Place the downloaded Recovery image (`.img` file) in the same location as the platform-tools folder on your computer.
 4. Now, flash the Recovery using the following command:
 ```
 fastboot flash recovery recovery.img
 ```
+
 5. After flashing the recovery, use the following command to reboot your Recovery:
 ```
 fastboot reboot recovery
 ```
-6. Your device will reboot with Recovery installed if it doesn't then manually boot into the recovey mode by holding Power+Volume Up button together
+6. Your device will reboot with Recovery installed.
 
-### Step 4: Wipe Data
-1. In Recovery, use the touch screen or physical buttons to navigate.
-2. Select "Wipe" from the main menu.
-3. Wipe Data and Davlik & cache and then proceed to format data by typing yes. And reboot to recovery again.
+### Step 4: Flash Project Elixir ROM
 
-### Step 5: Flash Project Elixir ROM
-
-USE PAYLOAD METHOD FOR NOW
-
-Download Tool:
-https://github.com/libxzr/FastbootEnhance/releases
-
+**- Clean Flash(Sideload Method)**
 ```
-1. Put the phone in fastboot mode and connect to PC
-2. Launch the Fastboot Enhance app and double-click your connected device
-3. Click the “Reboot to Fastbootd” button
-4. Once in fastbootd, click the Flash Payload.bin button.  If you get a warning about cow files, ignore and hit the Yes button
-5. Select the FULL OTA.zip of your choice (incremental patches not allowed.)
-6. The app will extract the payload.bin from the full zip and begin flashing automatically.  Do NOT touch your device or close the app during this time or you risk bricking your device
-7. Once done flashing, you will get a “Operation completed” dialogue box.  Hit Okay and then hit the “Reboot to System” button.  Profit.
+1. Perform a factory reset and return to recovery main mode.
+2. Select "Install update" >> "ADB sideload" and sideload the build using the command below:
+ 
+   adb sideload <mention build name>.zip
+   Example: adb sideload ProjectElixir_4.1_Pong-14.0-20240229-1326-OFFICIAL.zip
+3. Reboot system.
+```
+
+**- Clean Flash(Fastboot Method)**
+```
+1. Boot into bootloader/fastboot mode by Holding down the Power+Volume Down keys.
+2. Connect you device and open Command Prompt/Windows terminal.
+3. Execute the following command for flashing the ROM:
+
+fastboot -w
+fastboot update --skip-reboot path/to/ProjectElixir_.zip
+
+Example: fastboot update --skip-reboot ProjectElixir_4.1_Pong-14.0-20240229-1326-OFFICIAL.zip
+
+4. Enter Recovery.
+5. Go to Wipe Data \ Factory Reset to format.
+6. Reboot to System.
+```
+
+**- Dirty Flash(Sideload Method)**
+```
+1. Boot into recovery mode.
+2. Select "Install update" >> "ADB sideload" and sideload the build using the command below:
+ 
+   adb sideload <mention build name>.zip
+   Example: adb sideload ProjectElixir_4.1_Pong-14.0-20240229-1326-OFFICIAL.zip
+3. Reboot system.
+  
+                                  OR
+
+Just update through the system updater.
+```
+> [!Important]
+> You must be on Elixir Recovery to be able to update from system updater.
+ 
+
+**- Dirty Flash(Fastboot Method)**
+```
+1. Boot into bootloader/fastboot mode by Holding down the Power+Volume Down keys.
+2. Connect you device and open Command Prompt/Windows terminal.
+3. Execute the following command for flashing the ROM:
+
+fastboot update path/to/ProjectElixir_.zip
+
+Example: fastboot update ProjectElixir_4.1_Pong-14.0-20240229-1326-OFFICIAL.zip
 ```
 
 > [!Important]
@@ -99,7 +134,6 @@ https://github.com/libxzr/FastbootEnhance/releases
 > * Gapps is already included in zip no need to flash additionally
 > * If you are coming from PORTs then you need to Format Data and flash latest firmware [depending on the device]
 > * If you are coming from Android 12 or 13 to Android 14 then clean flash is compulsory and format data.
-> * If you are encrypted do format Data before flashing build to avoid bugs.
 
 <br>
 
