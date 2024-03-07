@@ -24,7 +24,7 @@
    - **Platform Tools Link (Windows)**: [platform-tools-latest-windows.zip](https://dl.google.com/android/repository/platform-tools-latest-windows.zip)
 
 2. Download the Recovery from the link below:
-   - **Recovery Link [ For Android 14 ]:** [Recovery](https://orangefox.download/device/vayu)
+   - **Recovery Link [ For Android 14 ]:** [Recovery](https://www.pling.com/p/1633536/)
      - Download the latest TWRP/OFR (Recommended)
 
 3. Download the Project Elixir ROM for Poco X3 Pro aka Vayu/Bhima from a reliable source.
