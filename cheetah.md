@@ -57,14 +57,15 @@ fastboot devices
 ```
 > [!Note] 
 > If your device is listed, you are ready and If you don’t get any output or an error:
->    * on Windows: make sure the device appears in the device manager without a triangle. Try other drivers until the command above works!
->    * on Linux or macOS: If you see no permissions fastboot try running fastboot as root. When the output is empty, check your USB cable and port!
+> * **On Windows:** Download [latest fastboot driver](https://xdaforums.com/t/official-tool-windows-adb-fastboot-and-drivers-15-seconds-adb-installer-v1-4-3.2588979/) and copy the folder into your desktop, then go again in Device Manager, locate your device, right-click on your device and choose "Update driver", choose "Browse my computer for driver software", then “Browse…” and select the folder you copied in your desktop. Click “ok” and then on “next”.
+> * **on Linux or macOS:** If you see no permissions fastboot try running fastboot as root. When the output is empty, check your USB cable and port!
 2. Now type the following command to unlock the bootloader:
 ```
 fastboot flashing unlock
 ```
 > [!Tip] 
-> At this point the device may display on-screen prompts which will require interaction to continue the process of unlocking the bootloader. Please take whatever actions the device asks you to to proceed.
+> * At this point the device may display on-screen prompts which will require interaction to continue the process of unlocking the bootloader.
+> * Give next/agree to actions the device when it asks you to proceed.
 3. If the device doesn’t automatically reboot, reboot it. It should now be unlocked.
 4. Since the device resets completely, you will need to re-enable USB debugging to continue.
 
@@ -90,9 +91,9 @@ fastboot flash vendor_kernel_boot vendor_kernel_boot.img
 ```
 fastboot devices
 ```
-> [!Note] 
-> If your device is listed, you are ready to flash
-
+> [!Note]
+> If your device is listed, you are ready to flash, else check **NOTE!** from Step 3 
+ 
 > [!Tip]
 > Some devices have buggy USB support while in bootloader mode, if you see fastboot hanging with no output when using commands such as fastboot getvar ..., fastboot boot ..., fastboot flash ... you may want to try a different USB port (preferably a USB Type-A 2.0 one) or a USB hub.
 
@@ -113,7 +114,8 @@ fastboot reboot recovery
 1. Download the Elixir installation package that you would like to install
 2. If you are not in recovery, reboot into recovery: hold `Volume Down + Power`
 3. Now tap Factory Reset, then Format data / factory reset and continue with the formatting process.
-> **NOTE** : This will remove encryption and delete all files stored in the internal storage, as well as format your cache partition (if you have one).
+> [!Warning]
+> This will remove encryption and **will delete all files stored** in the internal storage, as well as format your cache partition (if you have one).
 4. Return to the main menu
 5. Sideload the `Elixir.zip` package 
 > [!CAUTION]
@@ -126,7 +128,8 @@ adb -d sideload <filename.zip>
 8. After the package is installed, recovery will inform you that reboot to recovery is required to install add-ons.
 9. In case you want to do that, please select “Yes,” otherwise “No”.
 
-> Normally, adb will report Total xfer: 1.00x, but in some cases, even if the process succeeds the output will stop at 47% and report adb: failed to read command: Success. In some cases it will report adb: failed to read command: No error or adb: failed to read command: Undefined error: 0 which is also fine.
+> [!Tip]
+> Normally, adb will report `Total xfer: 1.00x`, but in some cases, even if the process succeeds the output will stop at 47% and report `Total xfer: 0.98x` or `adb: failed to read command: Success`. In some cases it will report `adb: failed to read command: No error` or `adb: failed to read command: Undefined error: 0` which is also fine.
 
 10. **All set!**
 - Once you have installed everything successfully, you can now reboot your device into the OS for the first time!
