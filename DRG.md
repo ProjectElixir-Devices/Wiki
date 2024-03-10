@@ -72,7 +72,10 @@ Retrofit
 >Re-Partition only required once, befor installing the Custom ROM
 
  1. Download the new-partition scheme file from [Here](https://github.com/Nokia-SDM660-Devices/B2N_GPT-Partition/raw/master/3.5s/FIH_SDM660_AVB1_gpt_both0_3.5s_1v.bin)
- 2. Reboot your device into `Fastboot mode/Download mode` & flash the file by `fastboot flash partition <PATH_TO_FIH_SDM660_AVB1_gpt_both0_3.5s_1v.bin>`
+ 2. Reboot your device into `Fastboot mode/Download mode` & flash the file by 
+```
+fastboot flash partition <PATH_TO_FIH_SDM660_AVB1_gpt_both0_3.5s_1v.bin>
+```
  3. Once the re-partition performed, you can follow up the below steps. 
 
 ### Retrofit Dynamic Partititions instruction [4/5] :
@@ -84,7 +87,10 @@ Retrofit
  2. Install the `Nokia Driver` from [Here](https://github.com/StollD/nokia-driver-installer/raw/master/out/Phone_Nokia_USB_Driver_v1.4.0.exe)
  3. Download `Platform tool` by Google from [Here](https://developer.android.com/tools/releases/platform-tools)
  4. Download the `super_empty.img` from [Here](https://github.com/ProjectElixir-Devices/device_nokia_DRG/releases/download/DRG-RDP/super_empty.img)
- 5. Now flash `super_empty.img` file with the given command `fastboot wipe-super <PATH TO Super-empty.img>`
+ 5. Now flash `super_empty.img` file with the given command 
+```
+fastboot wipe-super <PATH TO Super-empty.img>
+```
  6. Now follow up with the below steps.
 
 ### ROM installation [5/5] :
@@ -98,7 +104,10 @@ fastboot flash boot_a <PATH_TO_boot.img>
 fastboot flash boot_b <PATH_TO_boot.img>
 ```
  4. Now reboot into `recovery mode` by holding the Volume Up & Power button.
- 5. Apply Update » adb sideload method & sideload the ProjectElixir .zip file by `adb sideload <PATH_TO_ProjectElixir4.x-*.zip>`
+ 5. Apply Update » adb sideload method & sideload the ProjectElixir .zip file by 
+```
+adb sideload <PATH_TO_ProjectElixir4.x-*.zip>
+```
  6. Once the installation done, perform the `Factory reset` then » `Reboot to system`
 
 ### Installing Project Elixir from recovery:
