@@ -50,7 +50,7 @@ adb devices
 adb reboot bootloader
 ```
 
-### Step 3: Flash Recovery using Fastboot
+### Step 3: Unlock Bootloader using Fastboot
 1. Once your device is in Fastboot Mode, use the following command to check if Fastboot still detects your device:
 ```
 fastboot devices
