@@ -106,5 +106,5 @@ fastboot reboot recovery
 
 <br>
 
-> [!Important]
+> [!Tip]
 > **Donate**: [Do consider donating or buying us a coffee](https://projectelixiros.com/donate)
