@@ -76,7 +76,11 @@ Retrofit
  2. Install the `Nokia Driver` from [Here](https://github.com/StollD/nokia-driver-installer/raw/master/out/Phone_Nokia_USB_Driver_v1.4.0.exe)
  3. Download `Platform tool` by Google from [Here](https://developer.android.com/tools/releases/platform-tools)
  4. Download the `super_empty.img` from [Here](https://github.com/ProjectElixir-Devices/device_nokia_PL2/releases/download/PL2-RDP/super_empty.img)
- 5. Now flash `super_empty.img` file with the given command `fastboot wipe-super <PATH TO Super-empty.img>`
+ 5. Now flash `super_empty.img` file with the given command 
+
+```
+fastboot wipe-super <PATH TO Super-empty.img>
+```
  6. Now follow up with the below steps.
 
 ### ROM installation [4/4] :
@@ -90,7 +94,10 @@ fastboot flash boot_a <PATH_TO_boot.img>
 fastboot flash boot_b <PATH_TO_boot.img>
 ```
  4. Now reboot into `recovery mode` by holding the Volume Up & Power button.
- 5. Apply Update » adb sideload method & sideload the ProjectElixir .zip file by `adb sideload <PATH_TO_ProjectElixir4.x-*.zip>`
+ 5. Apply Update » adb sideload method & sideload the ProjectElixir .zip file by 
+```
+adb sideload <PATH_TO_ProjectElixir4.x-*.zip>
+```
  6. Once the installation done, perform the `Factory reset` then » `Reboot to system`
 
 ### Installing Project Elixir from recovery:
@@ -102,7 +109,7 @@ With the device powered off, hold `Volume Up` and connect to a computer.
  4. Now tap Format Data and continue with the formatting process. This will remove encryption and delete all files stored in the internal storage.
  5. Sideload the ProjectElixir `.zip` package:
   - On the device, select “Advanced”, “ADB Sideload”, then swipe to begin sideload.
-  - On the host machine, sideload the package using: `adb sideload filename.zip.`
+  - On the host machine, sideload the package using: `adb sideload filename.zip`
 
 > [!Tip]
 > Normally, adb will report `Total xfer: 1.00x`, but in some cases, even if the process succeeds the output will stop at 47% and report `Total xfer: 0.98x` or `adb: failed to read command: Success`. In some cases it will report `adb: failed to read command: No error` or `adb: failed to read command: Undefined error: 0` which is also fine.
