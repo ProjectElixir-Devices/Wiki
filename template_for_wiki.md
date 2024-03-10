@@ -2,14 +2,17 @@
 
 ### Installation Guide For Project Elixir on //DevcieNameHere (Devicecodenamehere)//
 
+> [!CAUTION]
+> - Your warranty is void. Or valid, probably?
+> - Project Elixir is not responsible for any damage you made to your device. You have been warned!
+
 > [!Warning]
-> * Your warranty is void. Or valid, probably?
-> * Project Elixir is not responsible for any damage you made to your device. You have been warned!
 > * We are not responsible for anything that may happen to your phone by installing custom ROMs.
 > * We are not responsible for anything that may happen to your phone by installing any kernels.
 > * You do it at your own risk and take the responsibility upon yourself
 > * You are not to blame Project Elixir or its respected developers for any of your loss.
->
+
+> [!Tip]
 > **Basic Notes for all users:**  
 > * The provided instructions are for Project Elixir based on Android 14.
 > * These will only work if you follow every section and step precisely
