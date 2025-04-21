@@ -2,7 +2,7 @@
   <img src="https://i.imgur.com/irnHU8d.png" />
 </p>
 
-### Introducing Project Elixir for DevcieNameHere (Devicecodenamehere) シ
+### Introducing Project Elixir now based on Android 15 シ
 > <p>"Redefine Simplicity with your android experience on our minimalistic custom rom — where sleek design meets robust security, performance, and stability."</p>
 
 ### ⊀ Unleash Innovation ⊁

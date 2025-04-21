@@ -1,32 +1,44 @@
-![Installation Guide For Project Elixir](https://i.imgur.com/42LxtAl.png)
+<p align="center">
+  <img src="https://i.imgur.com/irnHU8d.png" />
+</p>
+
+### Introducing Project Elixir now based on Android 15 シ
+> <p>"Redefine Simplicity with your android experience on our minimalistic custom rom — where sleek design meets robust security, performance, and stability."</p>
+
+### ⊀ Unleash Innovation ⊁
+
+> Elevate your user interface with minimalist design and with the striking of perfect balanced customization options, customize with ease.
 
 ### Installation Guide For Project Elixir on Redmi K20 Pro/Mi 9T Pro (raphael/in)
 
+> [!CAUTION]
+> - Your warranty is void. Or valid, probably?
+> - Project Elixir is not responsible for any damage you made to your device. You have been warned!
+> - Don't fall for mod/cracks etc and you may end up in trouble, in such scenarios you are not to blame us.
+
 > [!Warning]
-> * Your warranty is void. Or valid, probably?
-> * Project Elixir is not responsible for any damage you made to your device. You have been warned!
 > * We are not responsible for anything that may happen to your phone by installing custom ROMs.
 > * We are not responsible for anything that may happen to your phone by installing any kernels.
 > * You do it at your own risk and take the responsibility upon yourself
 > * You are not to blame Project Elixir or its respected developers for any of your loss.
->
+> * Be careful while going through download, installation guide, changelog links as A12 = v2.0 (snow), A13 = v3.0 (Tiramisu) and A14 = v4.0 (UNO) and A15 = 5.0 (vany) respective branch.
+
+> [!Tip]
 > **Basic Notes for all users:**  
-> * The provided instructions are for Project Elixir based on Android 14.
+> * The provided instructions are for Project Elixir based on Android 15.
 > * These will only work if you follow every section and step precisely
 > * Do not continue after something fails! Contact in support group for help
 > * The device must have an unlocked bootloader & has Platform Tools installed in pc.
-> * If you are moving from any other Android version to Android 14, it is necessary to do CLEAN FLASH (Format Data)
+> * If you are moving from any other Android version to Android 15, it is necessary to do CLEAN FLASH (Format Data)
 > * Take a backup for safe side (If you are coming from older Android version or doing a clean flash)
 > * For any queries or help related to Elixir, join our support group : [Tap Here](https://telegram.me/Elixir_Discussion)  
-
-
 
 ### Step 1: Download Required Files
 1. Download the latest Android platform tools for Windows from the link below:
    - **Platform Tools Link (Windows)**: [platform-tools-latest-windows.zip](https://dl.google.com/android/repository/platform-tools-latest-windows.zip)
 
 2. Download the Recovery from the link below:
-   - **Recovery Link [ For Android 14 ]:** [OFOX Recovery](https://nc.razrcloud.duckdns.org/s/rNGeDfT9CptrA35)
+   - **Recovery Link [ For Android 14 ]:** [OFOX Recovery](https://sourceforge.net/projects/project-elixir/files/fifteen/raphael/recovery/)
 
 3. Download the Project Elixir ROM for Redmi K20 Pro/Mi 9T Pro aka Raphael/Raphaelin from a reliable source.
    - **Project Elixir ROM Link**: [DOWNLOAD](https://projectelixiros.com/device/raphael)
@@ -157,7 +169,7 @@ Decryption to Decryption `(Android 13 to Android 13)`
 
 > [!Important]
 > **May Required Files:**
-> * Retrofit Supported Recovery : [Tap Here for link](https://nc.razrcloud.duckdns.org/s/rNGeDfT9CptrA35)
+> * Retrofit Supported Recovery : [Tap Here for link](https://sourceforge.net/projects/project-elixir/files/fifteen/raphael/recovery/)
 > * Android 13 Legacy Recovery (For encrypted user's): [Tap here for link](https://t.me/Al_Arabis_Cloud/104)
 > * Android 13 Legacy Recovery (For decrypted user's): [Tap here for link](https://t.me/Al_Arabis_Cloud/107)
 > * Legacy2Retrofit.zip : [Tap Here for link](https://t.me/Al_Arabis_Cloud/108)
@@ -181,3 +193,7 @@ Decryption to Decryption `(Android 13 to Android 13)`
 
 > [!Important]
 > **Donate**: [Do consider donating or buying us a coffee](https://projectelixiros.com/donate)
+
+<p align="center">
+  <img src="https://i.imgur.com/bETSPlo.png" />
+</p>

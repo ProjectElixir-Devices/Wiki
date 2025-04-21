@@ -2,7 +2,7 @@
   <img src="https://i.imgur.com/irnHU8d.png" />
 </p>
 
-### Introducing Project Elixir for Redmi Note 7 Pro (violet) シ
+### Introducing Project Elixir now based on Android 15 シ
 > <p>"Redefine Simplicity with your android experience on our minimalistic custom rom — where sleek design meets robust security, performance, and stability."</p>
 
 ### ⊀ Unleash Innovation ⊁
@@ -139,3 +139,7 @@ Decrypted to Decrypted `(Android 15 to Android 15)`
 
 > [!Important]
 > **Donate**: [Do consider donating or buying us a coffee](https://projectelixiros.com/donate)
+
+<p align="center">
+  <img src="https://i.imgur.com/bETSPlo.png" />
+</p>
