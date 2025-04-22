@@ -102,7 +102,7 @@ fastboot flash boot boot.img
 ```
 fastboot flash dtbo dtbo.img
 ```
-5. Once done then move forward to next step i.e. **Step 4**
+5. Once done then move forward to next step i.e. **Step 5**
 
 ### Step 5: Installing Elixir Recovery using fastboot
 
