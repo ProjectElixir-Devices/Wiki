@@ -110,8 +110,8 @@ Dirty Flash
 
 > [!Important]
 > **May Required Files:**
-> * MIUI 14.x Firmware (sweet) : [Tap Here for link](https://xiaomifirmwareupdater.com/firmware/sweet/)
-> * MIUI 14.x Firmware (sweetin) : [Tap Here for link](https://xiaomifirmwareupdater.com/firmware/sweetin/)
+> * MIUI 14.x Firmware (sweet) : [Tap Here for link](https://www.xmfirmwareupdater.com/firmware/sweet/)
+> * MIUI 14.x Firmware (sweetin) : [Tap Here for link](https://www.xmfirmwareupdater.com/firmware/sweetin/)
 
 > [!Note] 
 > **Notes specific to device build**
